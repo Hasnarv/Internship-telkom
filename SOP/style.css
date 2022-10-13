@@ -1,11 +1,5 @@
 .logo{
   height: 100px;
-  /* font-size: 30px;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  font-weight: 700;
-  letter-spacing: 1px; */
 }
 
 input{
@@ -27,4 +21,5 @@ input{
   margin-top: 40px;
   text-decoration: none;
   color: white;
+  
 }
