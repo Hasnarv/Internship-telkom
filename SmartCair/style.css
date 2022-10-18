@@ -37,6 +37,8 @@
     .card {
         padding: 10px;
         height: 150px;
+        text-decoration: none;
+        color: black;
     }
     .icons{
         font-size: 48px;
