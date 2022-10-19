@@ -1,0 +1,28 @@
+@media (max-width: 991px){
+    button{
+        font-weight: 700;
+        border-radius: 15px;
+        border: none;
+        background-color: #FFA62B;
+        color: black;
+        padding: 15px 15px 10px 15px;
+        width: 70%;
+        margin-bottom: 15px;
+    }
+    .main{
+        margin:auto;
+        text-align: center;
+    }
+    .navbar{
+        color: #BABBBC;
+        background-color: white;
+        box-shadow: 0px -2px 20px #e9e9e9;
+    }
+    table{
+        height: 700px;
+    }
+    span{
+        color: #489FB5;
+        font-weight: 700;
+    }
+}

@@ -1,0 +1,42 @@
+@media (max-width: 991px){
+    header{
+        font-size: 23px;
+        color: #16697A;
+        margin-top: 25px;
+        margin-bottom: 20px;
+        font-weight: 700;
+    }
+    button{
+        font-weight: 700;
+        border-radius: 15px;
+        border: none;
+        background-color: #16697A;
+        color: white;
+        padding: 12px 15px 0px 10px;
+        margin: auto;
+    }
+    .icon{
+        font-size: 25px;
+        text-align: center;
+        margin: 0px 8px 0px 5px;
+    }
+    .main{
+        margin:auto;
+        text-align: center;
+    }
+    h2{
+        font-weight: 700;
+    }
+    h5{
+        color: #6E7889;
+        margin-bottom: 20px;
+    }
+    .navbar{
+        color: #BABBBC;
+        background-color: white;
+        box-shadow: 0px -2px 20px #e9e9e9;
+    }
+    table{
+        height: 700px;
+    }
+}
