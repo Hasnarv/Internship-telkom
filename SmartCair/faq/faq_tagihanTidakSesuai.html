@@ -1,58 +1,72 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="style-subFaq.css">
- 
-    <title>FAQ Tagihan Tidak Sesuai</title>
-  </head>
-  <body>
-    <div class="container">
-      <header class="bold">
-        Smart Cair
-      </header>
-      <div class="searchInput">
-          <input type="text" placeholder="coba cari">
-          <button>Cari</button>
-      </div>
-      <h6 class="mb-3">Apa yang pelanggan keluhkan?</h6>
-      <div class="main">
-        <div class="sub-item d-flex">
-          <img src="../img/icon_tagihan tidak sesuai.png" alt="">
-          <h6 class="bold">Tagihan Tidak Sesuai</h6>
-        </div>
-        <ol>
-            <li>Melakukan caring pelanggan untuk proses penagihan sekaligus menjelaskan detail tagihan.</li>
-            <li>Apabila terbukti tagihan pelanggan tidak sesuai maka dapat dilakukan claim sebelum pelanggan membayar tagihan.</li>
-        </ol>
-      </div>
-      <nav class="navbar fixed-bottom">
-        <a href="../home.html" class="nav-item col-3 text-center">
-          <img src="../img/icon_Beranda.png" alt="icon_Beranda">
-          <p>Beranda</p>
-        </a>
-        <div class="nav-item col-3 text-center">
-          <img src="../img/icon_rencana.png" alt="icon_rencana">
-          <p>Rencana</p>
-        </div>
-        <a href="index.html" class="nav-item col-3 text-center">
-          <img src="../img/icon_faq-aktif.png" alt="">
-          <p>FAQ</p>
-        </a>
-        <div class="nav-item col-3 text-center">
-          <img src="../img/icon_akun.png" alt="">
-          <p>Akun</p>
-        </div>
-      </nav>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="style-subFaq.css">
+
+  <title>FAQ Tagihan Tidak Sesuai</title>
+</head>
+
+<body>
+  <div class="container">
+    <header class="d-flex">
+      <button class="button-back" onclick="Redirect()">
+        <ion-icon class="icon-back" name="chevron-back-outline"></ion-icon>
+      </button>
+      <p class="bold">SmartCair</p>
+    </header>
+    <div class="searchInput">
+      <input type="text" placeholder="coba cari">
+      <button>Cari</button>
     </div>
-    
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="script.js"></script>
-    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
-  </body>
+    <h6 class="mb-3">Apa yang pelanggan keluhkan?</h6>
+    <div class="main">
+      <div class="sub-item d-flex">
+        <img src="../img/icon_tagihan tidak sesuai.png" alt="">
+        <h6 class="bold">Tagihan Tidak Sesuai</h6>
+      </div>
+      <ol>
+        <li>Melakukan caring pelanggan untuk proses penagihan sekaligus menjelaskan detail tagihan.</li>
+        <li>Apabila terbukti tagihan pelanggan tidak sesuai maka dapat dilakukan claim sebelum pelanggan membayar
+          tagihan.</li>
+      </ol>
+    </div>
+    <nav class="navbar fixed-bottom">
+      <a href="../home.html" class="nav-item col-3 text-center">
+        <img src="../img/icon_Beranda.png" alt="icon_Beranda">
+        <p>Beranda</p>
+      </a>
+      <div class="nav-item col-3 text-center">
+        <img src="../img/icon_rencana.png" alt="icon_rencana">
+        <p>Rencana</p>
+      </div>
+      <a href="index.html" class="nav-item col-3 text-center">
+        <img src="../img/icon_faq-aktif.png" alt="">
+        <p>FAQ</p>
+      </a>
+      <div class="nav-item col-3 text-center">
+        <img src="../img/icon_akun.png" alt="">
+        <p>Akun</p>
+      </div>
+    </nav>
+  </div>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <script>
+    function Redirect() {
+      window.location = "index.html"
+    }
+  </script>
+</body>
+
 </html>
