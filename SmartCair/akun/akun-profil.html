@@ -16,7 +16,7 @@
 <body>
     <div class="container">
         <div class="main">
-            <button class="button-back">
+            <button class="button-back" onclick="Redirect()">
                 <ion-icon class="icon-back" name="chevron-back-outline"></ion-icon>
             </button>
             <img class="fotoProfil" src="../img/fotoprofil.png" alt="">
@@ -68,6 +68,12 @@
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="script.js"></script>
+
+    <script>
+        function Redirect(){
+            window.location = "akun.html"
+        }
+    </script>
 </body>
 
 </html>

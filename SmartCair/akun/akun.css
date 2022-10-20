@@ -16,6 +16,10 @@
         position: relative;
         left: -30px;
     }
+    .userSetting a{
+        text-decoration: none;
+        color: #676868;
+    }
     .icon-userSetting{
         width: 30px;
         height: 30px;
