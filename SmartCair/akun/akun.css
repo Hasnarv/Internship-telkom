@@ -7,6 +7,9 @@
 } */
 
 @media (max-width: 991px){
+    .namaUser{
+        font-weight: 700;
+    }
     .fotoProfil{
         border: 2px solid #16697A;
         border-radius: 100%;
