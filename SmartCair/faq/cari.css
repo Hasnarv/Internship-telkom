@@ -1,0 +1,64 @@
+/* .coba{
+    border: 1px solid black;
+} */
+
+/* .container{
+    margin: 20px;
+} */
+
+@media (max-width: 991px){
+    header p{
+        font-size: 23px;
+        color: #16697A;
+        margin-top: 25px;
+        margin-bottom: 20px;
+        font-weight: 700;
+    }
+    .button-back{
+        border: 1px solid #e9e9e9;
+        border-radius: 10px;
+        padding: 5px 10px;
+        margin: 25px 10px 10px 0px;
+        background-color: transparent;
+        color: #676868;
+    }
+    input{
+        width: 100%;
+        padding: 10px 10px 10px 10px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        border: 0.5px solid #89969F;
+        background-color: #EDF2F4;
+    }
+    .button-search{
+        position: absolute;
+        right: 20px;
+        top: 85px;
+        border-radius: 5px;
+        border: none;
+        background-color: #16697A;
+        color: white;
+        padding: 5px 10px;
+    }
+
+    .card {
+        padding: 10px;
+        height: 150px;
+        text-decoration: none;
+        color: black;
+    }
+    .icons{
+        font-size: 48px;
+    }
+
+    .navbar{
+        background-color: white;
+        box-shadow: 0px -2px 20px #e9e9e9;
+        text-decoration: none;
+        color: #BABBBC;
+    }
+    nav a {
+        color: #BABBBC;
+        text-decoration: none;
+    }
+}

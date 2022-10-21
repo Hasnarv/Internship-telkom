@@ -18,7 +18,7 @@
     <header class="bold position-fixed">
       <p>Smart Cair</p>
       <div class="searchInput">
-        <input type="text" placeholder="coba cari">
+        <input type="text" onclick="inputClick()" placeholder="coba cari">
         <button>Cari</button>
       </div>
     </header>
@@ -101,6 +101,11 @@
   <!-- JS Files -->
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="script.js"></script>
+  <script>
+    function inputClick(){
+      window.location = "cari.html"
+    }
+  </script>
 </body>
 
 </html>

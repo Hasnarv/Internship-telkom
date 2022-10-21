@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -6,62 +6,50 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Bootstrap CSS -->
+  <!-- CSS Files -->
   <link rel="stylesheet" href="../css/bootstrap.min.css">
-  <link rel="stylesheet" href="style-subFaq.css">
+  <link rel="stylesheet" href="cari.css">
 
-  <title>FAQ Pindah Alamat</title>
+  <title>FAQ</title>
 </head>
 
 <body>
   <div class="container">
-    <header class="position-fixed">
-      <div class="d-flex">
+    <header class="d-flex">
         <button class="button-back" onclick="Redirect()">
           <ion-icon class="icon-back" name="chevron-back-outline"></ion-icon>
         </button>
-        <p class="bold">Smart Cair</p>
-      </div>
+        <p class="bold">SmartCair</p>
+      </header>
       <div class="searchInput">
-        <input type="text" onclick="inputClick()" placeholder="coba cari">
+        <input type="text" placeholder="coba cari">
         <button class="button-search">Cari</button>
       </div>
-    </header>
-    <h6 class="mb-3">Apa yang pelanggan keluhkan?</h6>
-    <div class="main">
-      <div class="sub-item d-flex">
-        <img src="../img/icon_pindah alamat.png" alt="">
-        <h6 class="bold">Pindah Alamat</h6>
+      <div class="awal-cari">
+        <p class="text-center" style="color: #BABBBC">Cari Kendala atau apapun</p>
       </div>
-      <ol>
-        <li>Melakukan caring pelanggan untuk proses penagihan sekaligus menjelaskan benefit & penawaran program PDA.
-        </li>
-        <li>Memastikan request PDA pelanggan dapat dipenuhi atau tidak, jika dapat dipenuhi agar disolusikan sampai
-          Completed (baik dari segi layanan/teknis, customer consent/data pelanggan, dan tagihannya).</li>
-        <li>Memastikan pelanggan PSB yang terindikasi Rumah Kontrakan/Sewa baik Cluster Biasa ataupun Apartemen untuk
-          ditawarkan paket PDD atau BYOD.</li>
-      </ol>
     </div>
     <nav class="navbar fixed-bottom">
       <a href="../home.html" class="nav-item col-3 text-center">
         <img src="../img/icon_Beranda.png" alt="icon_Beranda">
         <p>Beranda</p>
       </a>
-      <div class="nav-item col-3 text-center">
+      <a href="../rencana/rencana.html" class="nav-item col-3 text-center">
         <img src="../img/icon_rencana.png" alt="icon_rencana">
         <p>Rencana</p>
-      </div>
+      </a>
       <a href="index.html" class="nav-item col-3 text-center">
         <img src="../img/icon_faq-aktif.png" alt="">
         <p>FAQ</p>
       </a>
-      <div class="nav-item col-3 text-center">
+      <a href="../akun/akun.html" class="nav-item col-3 text-center">
         <img src="../img/icon_akun.png" alt="">
         <p>Akun</p>
-      </div>
+      </a>
     </nav>
   </div>
 
+  <!-- JS Files -->
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="script.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
@@ -71,10 +59,8 @@
     function Redirect() {
       window.location = "index.html"
     }
-    function inputClick(){
-      window.location = "cari.html"
-    }
   </script>
+
 </body>
 
 </html>

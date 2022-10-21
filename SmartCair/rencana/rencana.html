@@ -21,7 +21,7 @@
                     <td>
                         <h2 class="bold">Tidak Ada Rencana</h2>
                         <h5>Rencana Dibuka Pukul 7 WIB dan Ditutup Pukul 9 WIB</h5>
-                        <button class="buttonAddRencana d-flex">
+                        <button class="buttonAddRencana d-flex" onclick="Redirect()">
                             <ion-icon class="icon" name="add-outline"></ion-icon>
                             <p>Tambah Rencana</p>
                         </button>
@@ -54,6 +54,12 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="script.js"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+
+    <script>
+        function Redirect() {
+          window.location = "rencanaDetil.html"
+        }
+      </script>
 </body>
 
 </html>

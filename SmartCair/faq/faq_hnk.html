@@ -23,7 +23,7 @@
         <p class="bold">Smart Cair</p>
       </div>
       <div class="searchInput">
-        <input type="text" placeholder="coba cari">
+        <input type="text" onclick="inputClick()" placeholder="coba cari">
         <button class="button-search">Cari</button>
       </div>
     </header>
@@ -72,6 +72,9 @@
   <script>
     function Redirect() {
       window.location = "index.html"
+    }
+    function inputClick(){
+      window.location = "cari.html"
     }
   </script>
 </body>
