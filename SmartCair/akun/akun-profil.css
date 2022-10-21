@@ -1,11 +1,3 @@
-/* .coba{
-    border: 1px solid black;
-} */
-
-/* .container{
-    margin: 20px;
-} */
-
 @media (max-width: 991px){
     .button-back{
         border: 1px solid #e9e9e9;
@@ -14,12 +6,13 @@
         margin-top: 25px;
         background-color: transparent;
         color: #676868;
+        position: absolute;
     }
     .fotoProfil{
         border: 2px solid #16697A;
         border-radius: 100%;
         width: 80px;
-        margin: 0px 150px 0px 150px;
+        margin: 70px 0px 0px 130px;
     }
     .userSetting a{
         text-decoration: none;
