@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="akun.css">
 
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
     <title>Akun</title>
 </head>
 
@@ -52,7 +54,7 @@
                 </tr>
                 <tr>
                     <td class="d-flex">
-                        <a href="#" class="d-flex">
+                        <a href="#" class="d-flex" id="bahasa">
                             <img class="icon-userSetting" src="../img/icon_bahasa.png" alt="icon">
                             <p>Bahasa</p>
                         </a>
@@ -73,7 +75,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td colspan="2" class="d-flex" style="color: #EF233C;">
+                    <td colspan="2" class="d-flex" id="keluar" style="color: #EF233C;">
                         <img class="icon-userSetting" src="../img/icon_keluar.png" alt="icon">
                         <p>Keluar</p>
                     </td>
@@ -105,6 +107,21 @@
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="script.js"></script>
+
+    <script>
+        document.getElementById('keluar').addEventListener('click', () => {
+
+            swal.fire({
+                text: "Apa Anda yakin ingin keluar?",
+                showCancelButton: true,
+                confirmButtonColor: '#16697A',
+                cancelButtonColor: '#aaa'
+            });
+        })
+        // function onBtnClick() {
+            
+        // }
+    </script>
 </body>
 
 </html>
