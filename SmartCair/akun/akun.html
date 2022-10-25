@@ -140,10 +140,17 @@
                 }
             })
 
-            if (language) {
+            if (language === 'Bahasa Indonesia') {
                 Swal.fire({
                     icon: 'success',
-                    html: `You selected: ${language}`,
+                    html: `Anda memilih ${language}`,
+                    showConfirmButton: false
+                })
+            }
+            if (language === 'English') {
+                Swal.fire({
+                    icon: 'success',
+                    html: `You selected ${language}`,
                     showConfirmButton: false
                 })
             }
