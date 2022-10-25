@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="rencanaDetil.css">
 
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <title>Rencana</title>
 </head>
@@ -145,17 +145,19 @@
             });
         });
 
-        document.querySelector(".buttonAddRencana").addEventListener('click', function () {
-            Swal("Our First Alert", "With some body text!");
-        });
-
         function onBtnClick() {
-            swal({
+            swal.fire({
                 text: "Rencana dapat ditambahkan mulai dari pukul 07.00-09.00 WIB",
-                buttons: false,
+                showConfirmButton: false,
                 icon: 'warning'
 
             });
+            // Swal.disableButtons({
+            //     text: "Rencana dapat ditambahkan mulai dari pukul 07.00-09.00 WIB",
+            // });
+            // swal.disableConfirmButton({
+            //     text: "Rencana dapat ditambahkan mulai dari pukul 07.00-09.00 WIB",
+            // });
         };
     </script>
 </body>
