@@ -24,12 +24,13 @@
         margin:auto;
         text-align: center;
     }
-    h2{
+    .title{
         font-weight: 700;
+        color: black;
     }
-    h5{
+    h6{
         color: #6E7889;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
     .navbar{
         color: #BABBBC;

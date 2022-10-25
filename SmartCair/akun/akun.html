@@ -53,11 +53,9 @@
                     </td>
                 </tr>
                 <tr>
-                    <td class="d-flex">
-                        <a href="#" class="d-flex" id="bahasa">
-                            <img class="icon-userSetting" src="../img/icon_bahasa.png" alt="icon">
-                            <p>Bahasa</p>
-                        </a>
+                    <td colspan="2" id="bahasa" class="d-flex">
+                        <img class="icon-userSetting" src="../img/icon_bahasa.png" alt="icon">
+                        <p>Bahasa</p>
                     </td>
                     <td class="text-end">
                         <ion-icon name="chevron-forward-outline"></ion-icon>
@@ -110,17 +108,46 @@
 
     <script>
         document.getElementById('keluar').addEventListener('click', () => {
-
             swal.fire({
                 text: "Apa Anda yakin ingin keluar?",
                 showCancelButton: true,
+                cancelButtonText: "Tidak",
+                confirmButtonText: "Ya",
                 confirmButtonColor: '#16697A',
                 cancelButtonColor: '#aaa'
             });
         })
-        // function onBtnClick() {
-            
-        // }
+    </script>
+    <script>
+        document.getElementById('bahasa').addEventListener('click', async () => {
+            const inputOptions = new Promise((resolve) => {
+                setTimeout(() => {
+                    resolve({
+                        'Bahasa Indonesia': 'Bahasa Indonesia',
+                        'English': 'English'
+                    })
+                }, 1000)
+            })
+
+            const { value: language } = await Swal.fire({
+                title: 'Select language',
+                input: 'radio',
+                inputOptions: inputOptions,
+                inputValidator: (value) => {
+                    if (!value) {
+                        return 'You need to choose something!'
+                    }
+                }
+            })
+
+            if (language) {
+                Swal.fire({
+                    icon: 'success',
+                    html: `You selected: ${language}`,
+                    showConfirmButton: false
+                })
+            }
+        })
     </script>
 </body>
 

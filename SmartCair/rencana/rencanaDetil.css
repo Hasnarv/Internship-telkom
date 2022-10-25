@@ -49,12 +49,14 @@
         padding-bottom: 150px;
         padding-top: 85px;
     }
-    h5{
+    .nama{
         font-weight: 700;
+        color: black;
+        margin: 10px 0px 5px 13px;
     }
     h6{
         color: #6E7889;
-        margin-bottom: 20px;
+        margin: 0px 0px 10px 13px;
     }
     .navbar{
         color: #BABBBC;
