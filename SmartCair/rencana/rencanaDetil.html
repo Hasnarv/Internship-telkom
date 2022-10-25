@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="rencanaDetil.css">
 
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
     <title>Rencana</title>
 </head>
 
@@ -99,7 +101,7 @@
                     </td>
                 </tr>
             </table>
-            <button class="buttonAddRencana d-flex fixed-bottom">
+            <button class="buttonAddRencana d-flex fixed-bottom" onclick="onBtnClick()">
                 <ion-icon class="icon" name="add-outline"></ion-icon>
                 <p>Tambah Rencana</p>
             </button>
@@ -131,16 +133,30 @@
     <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
+
     <script>
-        $(document).ready(function() {
-            $("#input").on("keyup", function() {
+        $(document).ready(function () {
+            $("#input").on("keyup", function () {
                 var value = $(this).val().toLowerCase();
-                $("#content tr").filter(function() {
+                $("#content tr").filter(function () {
                     $(this).toggle($(this).text()
-                    .toLowerCase().indexOf(value) > -1)
+                        .toLowerCase().indexOf(value) > -1)
                 });
             });
         });
+
+        document.querySelector(".buttonAddRencana").addEventListener('click', function () {
+            Swal("Our First Alert", "With some body text!");
+        });
+
+        function onBtnClick() {
+            swal({
+                text: "Rencana dapat ditambahkan mulai dari pukul 07.00-09.00 WIB",
+                buttons: false,
+                icon: 'warning'
+
+            });
+        };
     </script>
 </body>
 
