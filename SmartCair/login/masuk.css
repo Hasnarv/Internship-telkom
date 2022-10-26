@@ -23,6 +23,7 @@
         background-color: #edf2f4;
     }
     .submit{
+        font-weight: 800;
         border-radius: 10px;
         border: none;
         background-color: #FFA62B;
@@ -54,10 +55,10 @@
         color: #16697A;
         text-decoration: none;
     }
-    button a{
+    /* button a{
         font-weight: 800;
         color: white;
         text-decoration: none;
-    }
+    } */
 }
 
