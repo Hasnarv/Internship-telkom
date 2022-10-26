@@ -50,5 +50,14 @@
         color: #16697A;
         font-weight: 700;
     }
+    p span a{
+        color: #16697A;
+        text-decoration: none;
+    }
+    button a{
+        font-weight: 800;
+        color: white;
+        text-decoration: none;
+    }
 }
 

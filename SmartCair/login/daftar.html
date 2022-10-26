@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="daftar.css">
+
+  <title>Daftar Akun</title>
+</head>
+
+<body>
+  <div class="container">
+    <header class="bold">
+      <p>Smart Cair</p>
+    </header>
+    <div class="main">
+      <div class="title mt-5">
+        <h5><strong>Silahkan Daftar</strong></h5>
+        <p>Isi data diri anda dengan sebenar-benarnya</p>
+      </div>
+      <div class="input-data mt-4 text-center">
+        <input type="name" class="fullname" id="fullname" placeholder="Nama Lengkap">
+        <input type="email" class="email" id="email" placeholder="Email">
+        <input type="password" class="password" id="password" placeholder="Password">
+        <input type="password" class="confirmPassword" id="confirmPassword" placeholder="Ulangi Password">
+        <div class="snk d-flex">
+            <input type="checkbox" class="syarat" id="snk">
+            <p class="syarat">Saya setuju dengan <span>Syarat dan Ketentuan</span></p>
+        </div>
+        <button type="submit" class="submit"><a href="masuk.html">Daftar</a></button>
+      </div>
+      <div class="opsi-lain text-center">
+        <p>Sudah punya akun? <span><a href="masuk.html">Masuk</a></span></p>
+        <b class="bold">Atau</p>
+        <button class="btn-masuk-google d-flex">
+          <iconify-icon icon="flat-color-icons:google" class="icons"></iconify-icon>
+          <p>Daftar menggunakan akun google</p>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- JS Files -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
