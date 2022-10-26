@@ -115,6 +115,10 @@
                 confirmButtonText: "Ya",
                 confirmButtonColor: '#16697A',
                 cancelButtonColor: '#aaa'
+            }).then(function(result) {
+                if(result.isConfirmed){
+                    window.location.href = "/SmartCair/login/masuk.html"
+                }
             });
         })
     </script>
