@@ -130,7 +130,7 @@
                         'Bahasa Indonesia': 'Bahasa Indonesia',
                         'English': 'English'
                     })
-                }, 1000)
+                }, 500)
             })
 
             const { value: language } = await Swal.fire({
@@ -139,7 +139,7 @@
                 inputOptions: inputOptions,
                 inputValidator: (value) => {
                     if (!value) {
-                        return 'You need to choose something!'
+                        return 'Anda belum memilih apapun!'
                     }
                 }
             })
