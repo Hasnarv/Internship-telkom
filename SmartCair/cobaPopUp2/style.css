@@ -24,10 +24,8 @@
     }
 
     .modal-header {
-        display: flex;
         align-items: center;
-        justify-content: space-between;
-        border-bottom: 0.5px solid black;
+        border-bottom: 0.25px solid rgb(168, 168, 168);
     }
 
     #modal-overlay {
@@ -41,16 +39,21 @@
         opacity: 0.5;
     }
 
-    img{
+    .icon{
         position: absolute;
         right: 10px;
         top: 350px;
-        width: 25%;
+        font-size: 95px;
+        background-color: #9ccc66;
+        color: white;
+        border-radius: 10px;
     }
 
     .text{
         padding-right: 80px;
         margin-left: -20px;
+        margin-right: 5px;
+        margin-bottom: -20px;
     }
 
     .modal-close{
@@ -63,5 +66,9 @@
         position: absolute;
         right: 10px;
         top: 300px;
+    }
+    .modal-header p{
+        color: #D90429;
+        margin-top: -10px;
     }
 /*}*/

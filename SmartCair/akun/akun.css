@@ -34,4 +34,20 @@
         border: none;
         background-color: transparent;
     }
+    .icon-userSetting.bahasa{
+        background-color: #676868;
+        color: white;
+        border-radius: 100px;
+        width: 15px;
+        height: 15px;
+        padding: 5px;
+        margin-left: 3px;
+    }
+    .icon{
+        border: none;
+        background-color: #4e9a06;
+        color: white;
+        margin-bottom: -50px;
+        padding: 10px;
+    }
 }
