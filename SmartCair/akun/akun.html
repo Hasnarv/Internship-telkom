@@ -116,16 +116,20 @@
                     icon: 'icon'
                 },
                 confirmButtonText: "Check-In",
-                confirmButtonColor: '#4e9a06',
-                imageUrl: 'img/icon_keluar.png'
+                confirmButtonColor: '#4e9a06'
             }).then(function(result){
-                if (result == "Check-In") {
+                document.getElementById('presensi').addEventListener('click', () => {
                     swal.fire({
-                        icon: 'success',
-                        html: `Anda memilih ${language}`,
-                        showConfirmButton: false
-                    })
-                }
+                    title: "Anda belum  Check-out",
+                    html: "Silahkan melakukan Check-out !",
+                    iconHtml: '<ion-icon name="log-out-outline"></ion-icon>',
+                    customClass: {
+                        icon: 'icon2'
+                    },
+                    confirmButtonText: "Check-Out",
+                    confirmButtonColor: '#D90429'
+                    });
+                })
             });
         })
 

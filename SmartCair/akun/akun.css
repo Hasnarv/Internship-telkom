@@ -44,10 +44,15 @@
         margin-left: 3px;
     }
     .icon{
-        border: none;
+        border: 1px solid #4e9a06;
         background-color: #4e9a06;
         color: white;
-        margin-bottom: -50px;
+        padding: 10px;
+    }
+    .icon2{
+        border: 1px solid #D90429;
+        background-color: #D90429;
+        color: white;
         padding: 10px;
     }
 }
