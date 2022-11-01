@@ -66,4 +66,9 @@
         color: #BABBBC;
         text-decoration: none;
     }
+    mark{
+        background-color: yellow;
+        color: black;
+        font-weight: 700;
+    }
 }
