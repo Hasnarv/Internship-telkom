@@ -1,65 +1,78 @@
+body{
+    background-color: #e8e8e8;
+    padding: 0 575px;
+}
+.container{
+    background-color: white;
+    height: 100vh;
+    padding-top: 2px;
+}
+header{
+    background-color: white;
+    width: 100%;
+}
+header p{
+    font-size: 30px;
+    color: #16697A;
+    margin-top: 45px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+.title p{
+    font-size: 13px;
+}
+input{
+    width: 100%;
+    padding: 10px 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 0.5px solid #BABBBC;
+    background-color: #edf2f4;
+}
+.submit{
+    font-weight: 800;
+    border-radius: 10px;
+    border: none;
+    background-color: #FFA62B;
+    color: white;
+    padding: 12px 10px;
+    margin-top: 15px;
+    width: 100%;
+}
+.opsi-lain {
+    margin-top: 10px;
+}
+.btn-masuk-google{
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #BABBBC;
+    background-color: transparent;
+    padding: 12px 0px 0px 35px;
+}
+.icons {
+    font-size: 25px;
+    text-align: center;
+    margin: 0px 8px 0px 5px;
+}
+span{
+    color: #16697A;
+    font-weight: 700;
+}
+.snk{
+    padding: 10px 10px ;
+}
+.syarat{
+    margin-left: -155px;
+}
+p span a{
+    color: #16697A;
+    text-decoration: none;
+}
+
 @media (max-width: 991px) {
-    header{
-        background-color: white;
-        width: 100%;
-    }
-    header p{
-        font-size: 30px;
-        color: #16697A;
-        margin-top: 80px;
-        margin-bottom: 20px;
-        font-weight: 700;
-        text-align: center;
-    }
-    .title p{
-        font-size: 13px;
-    }
-    input{
-        width: 100%;
-        padding: 10px 10px;
-        margin-bottom: 15px;
-        border-radius: 10px;
-        border: 0.5px solid #BABBBC;
-        background-color: #edf2f4;
-    }
-    .submit{
-        font-weight: 800;
-        border-radius: 10px;
-        border: none;
-        background-color: #FFA62B;
-        color: white;
-        padding: 12px 10px;
-        margin-top: 15px;
-        width: 100%;
-    }
-    .opsi-lain {
-        margin-top: 50px;
-    }
-    .btn-masuk-google{
-        width: 100%;
-        border-radius: 10px;
-        border: 1px solid #BABBBC;
-        background-color: transparent;
-        padding: 12px 0px 0px 35px;
-    }
-    .icons {
-        font-size: 25px;
-        text-align: center;
-        margin: 0px 8px 0px 5px;
-    }
-    span{
-        color: #16697A;
-        font-weight: 700;
-    }
-    .snk{
-        padding: 10px 10px ;
-    }
-    .syarat{
-        margin-left: -155px;
-    }
-    p span a{
-        color: #16697A;
-        text-decoration: none;
+    body{
+        padding: 0 0;
     }
     /* button a{
         font-weight: 800;

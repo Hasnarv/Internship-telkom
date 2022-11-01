@@ -1,11 +1,109 @@
+body{
+    background-color: #e8e8e8;
+    padding: 0 575px;
+}
+.container{
+    background-color: white;
+    height: 90vh;
+    padding-top: 2px;
+}
+header{
+    font-size: 23px;
+    color: #16697A;
+    padding: 25px 0px 0px 0px;
+    font-weight: 700;
+    background-color: white;
+    width: 20%;
+}
+.buttonAddRencana{
+    width: 13%;
+    font-weight: 700;
+    border-radius: 15px;
+    border: none;
+    background-color: #16697A;
+    color: white;
+    padding: 12px 0px 0px 10px;
+    margin: 0px 0px 100px 740px;
+    box-shadow: 0px -2px 15px #BABBBC;
+}
+.button-search{
+    position: absolute;
+    right: -45px;
+    top: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: #16697A;
+    color: white;
+    padding: 0px 5px;
+}
+input{
+    font-size: 18px;
+    width: 105%;
+    padding: 8px 10px;
+    margin: 0px 0px 8px 40px;
+    border-radius: 10px;
+    border: 0.5px solid #BABBBC;
+    background-color: #edf2f4;
+}
+.icon{
+    font-size: 25px;
+    text-align: center;
+    margin: 0px 8px 0px 5px;
+}
+.main{
+    margin:auto;
+    text-align: justify;
+    padding-bottom: 150px;
+    padding-top: 85px;
+}
+.nama{
+    font-weight: 700;
+    color: black;
+    margin: 10px 0px 5px 13px;
+}
+h6{
+    color: #6E7889;
+    margin: 0px 0px 10px 13px;
+}
+.navbar{
+    background-color: white;
+    box-shadow: 0px -2px 20px #e9e9e9;
+    text-decoration: none;
+    color: #BABBBC;
+    margin: 0 575px;
+}
+nav a {
+    color: #BABBBC;
+    text-decoration: none;
+}
 @media (max-width: 991px){
+    body{
+        padding: 0 0;
+    }
+    .navbar{
+        margin: 0;
+    }
     header{
-        font-size: 23px;
-        color: #16697A;
-        padding: 25px 0px 0px 0px;
-        font-weight: 700;
         background-color: white;
         width: 100%;
+        z-index: 1;
+        padding-top: 0;
+    }
+    header p{
+        font-size: 23px;
+        color: #16697A;
+        margin-top: 25px;
+        margin-bottom: 20px;
+        font-weight: 700;
+    }
+    input{
+        font-size: 18px;
+        width: 90%;
+        padding: 8px 10px;
+        margin: 20px 0px 8px 40px;
+        border-radius: 10px;
+        border: 0.5px solid #BABBBC;
+        background-color: #edf2f4;
     }
     .buttonAddRencana{
         width: 53%;
@@ -22,49 +120,11 @@
         position: absolute;
         width: 12%;
         right: 30px;
-        top: 30px;
+        top: 25px;
         border-radius: 10px;
         border: none;
         background-color: #16697A;
         color: white;
         padding: 0px 8px;
-    }
-    input{
-        font-size: 18px;
-        width: 90%;
-        padding: 8px 10px;
-        margin: 0px 0px 8px 40px;
-        border-radius: 10px;
-        border: 0.5px solid #BABBBC;
-        background-color: #edf2f4;
-    }
-    .icon{
-        font-size: 25px;
-        text-align: center;
-        margin: 0px 8px 0px 5px;
-    }
-    .main{
-        margin:auto;
-        text-align: justify;
-        padding-bottom: 150px;
-        padding-top: 85px;
-    }
-    .nama{
-        font-weight: 700;
-        color: black;
-        margin: 10px 0px 5px 13px;
-    }
-    h6{
-        color: #6E7889;
-        margin: 0px 0px 10px 13px;
-    }
-    .navbar{
-        color: #BABBBC;
-        background-color: white;
-        box-shadow: 0px -2px 20px #e9e9e9;
-    }
-    nav a {
-        color: #BABBBC;
-        text-decoration: none;
     }
 }
