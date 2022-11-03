@@ -48,6 +48,9 @@ table{
 td{
     vertical-align: middle;
 }
+.userSetting .value{
+    color: #616161;
+}
 
 @media (max-width: 991px){
     body{

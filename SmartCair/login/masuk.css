@@ -70,7 +70,7 @@ p span a{
 .forgot p{
     position: absolute;
     justify-items: right;
-    right: 20px;
+    right: 590px;
     color: #489FB5;
 }
 .forgot{
@@ -80,6 +80,13 @@ p span a{
 @media (max-width: 991px) {
     body{
         padding: 0 0;
+    }
+
+    .forgot p{
+        position: absolute;
+        justify-items: right;
+        right: 20px;
+        color: #489FB5;
     }
     /* button a{
         font-weight: 800;

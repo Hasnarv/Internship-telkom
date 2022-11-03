@@ -209,20 +209,20 @@
                 }
             })
 
-            if (language === 'Pra-NPC') {
+            if (language !== '') {
                 Swal.fire({
                     icon: 'success',
                     html: `Anda memilih ${language}`,
                     showConfirmButton: false
                 })
             }
-            if (language === 'C3MR') {
-                Swal.fire({
-                    icon: 'success',
-                    html: `You selected ${language}`,
-                    showConfirmButton: false
-                })
-            }
+            // if (language === 'C3MR') {
+            //     Swal.fire({
+            //         icon: 'success',
+            //         html: `You selected ${language}`,
+            //         showConfirmButton: false
+            //     })
+            // }
         })
     </script>
 </body>
