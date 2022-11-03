@@ -42,6 +42,12 @@ nav a {
     color: #BABBBC;
     text-decoration: none;
 }
+table{
+    height: 280px;
+}
+td{
+    vertical-align: middle;
+}
 
 @media (max-width: 991px){
     body{

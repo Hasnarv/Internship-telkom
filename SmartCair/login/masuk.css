@@ -63,6 +63,19 @@ p span a{
     color: #16697A;
     text-decoration: none;
 }
+.checkIngatSaya{
+    width: 15px;
+    height: 15px;
+}
+.forgot p{
+    position: absolute;
+    justify-items: right;
+    right: 20px;
+    color: #489FB5;
+}
+.forgot{
+    margin: 5px 0px 10px 0px;
+}
 
 @media (max-width: 991px) {
     body{

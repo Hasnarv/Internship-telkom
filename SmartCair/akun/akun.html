@@ -18,7 +18,7 @@
 <body>
     <div class="container">
         <div class="main">
-            <table class=" userProfile table table-borderless mt-5">
+            <table class="userProfile table table-borderless mt-5">
                 <tr>
                     <td rowspan="2">
                         <img class="fotoProfil" src="../img/fotoprofil.png" alt="">
@@ -29,7 +29,7 @@
                     </td>
                 </tr>
             </table>
-            <table class=" userSetting table mt-5">
+            <table class="userSetting table mt-5">
                 <tr>
                     <td>
                         <a href="akun-profil.html" class="d-flex">
@@ -52,8 +52,8 @@
                         <ion-icon name="chevron-forward-outline"></ion-icon>
                     </td>
                 </tr>
-                <tr>
-                    <td colspan="2" id="bahasa" class="d-flex">
+                <tr id="bahasa">
+                    <td colspan="2" class="d-flex">
                         <ion-icon class="icon-userSetting bahasa" name="language-outline"></ion-icon>
                         <p>Bahasa</p>
                     </td>
@@ -61,11 +61,11 @@
                         <ion-icon name="chevron-forward-outline"></ion-icon>
                     </td>
                 </tr>
-                <tr>
+                <tr id="mode">
                     <td class="d-flex">
                         <a href="#" class="d-flex">
                             <ion-icon class="icon-userSetting" name="help-circle"></ion-icon>
-                            <p>Dukungan</p>
+                            <p>Mode</p>
                         </a>
                     </td>
                     <td class="text-end">
@@ -160,8 +160,9 @@
             })
 
             const { value: language } = await Swal.fire({
-                title: 'Select language',
+                title: 'Bahasa',
                 input: 'radio',
+                confirmButtonText: "Terapkan",
                 inputOptions: inputOptions,
                 inputValidator: (value) => {
                     if (!value) {
@@ -178,6 +179,44 @@
                 })
             }
             if (language === 'English') {
+                Swal.fire({
+                    icon: 'success',
+                    html: `You selected ${language}`,
+                    showConfirmButton: false
+                })
+            }
+        })
+
+        document.getElementById('mode').addEventListener('click', async () => {
+            const inputOptions = new Promise((resolve) => {
+                setTimeout(() => {
+                    resolve({
+                        'Pra-NPC': 'Pra-NPC',
+                        'C3MR': 'C3MR'
+                    })
+                }, 500)
+            })
+
+            const { value: language } = await Swal.fire({
+                title: 'Mode',
+                input: 'radio',
+                confirmButtonText: "Terapkan",
+                inputOptions: inputOptions,
+                inputValidator: (value) => {
+                    if (!value) {
+                        return 'Anda belum memilih apapun!'
+                    }
+                }
+            })
+
+            if (language === 'Pra-NPC') {
+                Swal.fire({
+                    icon: 'success',
+                    html: `Anda memilih ${language}`,
+                    showConfirmButton: false
+                })
+            }
+            if (language === 'C3MR') {
                 Swal.fire({
                     icon: 'success',
                     html: `You selected ${language}`,
