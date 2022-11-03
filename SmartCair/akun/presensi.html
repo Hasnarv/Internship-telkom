@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="presensi.css">
+
+  <title>Presensi</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+        <div class="d-flex">
+            <button class="button-back" onclick="Redirect()">
+              <ion-icon class="icon-back" name="chevron-back-outline"></ion-icon>
+            </button>
+            <p class="bold">Pre-Test</p>
+          </div>
+    </header>
+    <main>
+        <ol>
+            <li>
+                <b>Apabila terbukti tagihan tidak sesuai maka yang perlu dilakukan adalah....</b>
+                <div class="opsi d-flex">
+                    <input type="checkbox" class="check-opsi" id="snk">
+                    <p class="item-opsi m-2">Menggabungkan tagihan pelanggan menjadi single billing</p>
+                </div>
+                <div class="opsi d-flex">
+                    <input type="checkbox" class="opsi" id="snk">
+                    <p class="item-opsi m-2">Melakukan claim sebelum pelanggan membayar tagihan</p>
+                </div>
+                <div class="opsi d-flex">
+                    <input type="checkbox" class="opsi" id="snk">
+                    <p class="item-opsi m-2">Menawarkan promo cashback</p>
+                </div>
+                <div class="opsi d-flex">
+                    <input type="checkbox" class="opsi" id="snk">
+                <p class="item-opsi m-2">Melakukan isolir</p>
+                </div>
+            </li>
+            <li>
+                <b>Apabila pelanggan memiliki kendala terkait harga, hal yang harus dilakukan, kecuali....</b>
+                <div class="opsi d-flex">
+                    <input type="checkbox" class="check-opsi" id="snk">
+                    <p class="item-opsi m-2">Memberikan solusi moda payment</p>
+                </div>
+                <div class="opsi d-flex">
+                    <input type="checkbox" class="opsi" id="snk">
+                    <p class="item-opsi m-2">Menawarkan cicilan include isolir kepada pelanggan</p>
+                </div>
+                <div class="opsi d-flex">
+                    <input type="checkbox" class="opsi" id="snk">
+                    <p class="item-opsi m-2">Menawarkan penghapusan denda kepada pelanggan</p>
+                </div>
+                <div class="opsi d-flex">
+                    <input type="checkbox" class="opsi" id="snk">
+                <p class="item-opsi m-2">Menawarkan paket retensi kepada pelanggan</p>
+                </div>
+            </li>
+        </ol>
+        <button type="submit" class="submit">Submit</button>
+    </main>
+  </div>
+
+  <!-- JS Files -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
