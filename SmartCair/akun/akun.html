@@ -43,7 +43,7 @@
                 </tr>
                 <tr>
                     <td class="d-flex">
-                        <a href="#" id="presensi" class="d-flex">
+                        <a href="presensi.html" class="d-flex">
                             <ion-icon class="icon-userSetting" name="scan-circle"></ion-icon>
                             <p>Presensi</p>
                         </a>
@@ -108,32 +108,6 @@
     <script src="script.js"></script>
 
     <script>
-        document.getElementById('presensi').addEventListener('click', () => {
-            swal.fire({
-                title: "Anda belum  presensi",
-                html: "Silahkan melakukan presensi !",
-                iconHtml: '<ion-icon name="log-in-outline"></ion-icon>',
-                customClass: {
-                    icon: 'icon'
-                },
-                confirmButtonText: "Check-In",
-                confirmButtonColor: '#4e9a06'
-            }).then(function(result){
-                document.getElementById('presensi').addEventListener('click', () => {
-                    swal.fire({
-                    title: "Anda belum  Check-out",
-                    html: "Silahkan melakukan Check-out !",
-                    iconHtml: '<ion-icon name="log-out-outline"></ion-icon>',
-                    customClass: {
-                        icon: 'icon2'
-                    },
-                    confirmButtonText: "Check-Out",
-                    confirmButtonColor: '#D90429'
-                    });
-                })
-            });
-        })
-
         document.getElementById('keluar').addEventListener('click', () => {
             swal.fire({
                 text: "Apa Anda yakin ingin keluar?",
