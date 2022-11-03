@@ -27,9 +27,9 @@ function searchAndBoldText(e) {
     if (search !== "") {
         if (search !== "()" && search !== "[]" && search !== "$" && search !== "^") {
             // init regex
-            var regex = new RegExp(`(?<!</?[^>]|&[^;])(${search})`, 'g',);
+            var regex = new RegExp(`(?<!</?[^>]|&[^;])(${search})`, 'gi',);
             // show marker
-            var result = str.replace(regex, '<b>' + search + '</b>');
+            var result = str.replace(regex, `<mark>` + search + `</mark>`);
             // overwrite
             output.innerHTML = result;
         }
