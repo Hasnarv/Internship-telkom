@@ -75,13 +75,17 @@
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script>
+    function Redirect() {
+      window.location = "akun.html"
+    }
     document.getElementById('submit-test').addEventListener('click', () => {
             swal.fire({
                 html: "Silahkan melakukan presensi !",
                 iconHtml: '<ion-icon name="log-in-outline"></ion-icon>',
-                customClass: {
-                    icon: 'icon'
-                },
+                iconColor: '#4e9a06',
+                // customClass: {
+                //     icon: 'icon'
+                // },
                 confirmButtonText: "Check-In",
                 confirmButtonColor: '#4e9a06'
             }).then(function(result) {
@@ -94,9 +98,10 @@
                     title: "Anda belum  Check-out",
                     html: "Silahkan melakukan Check-out !",
                     iconHtml: '<ion-icon name="log-out-outline"></ion-icon>',
-                    customClass: {
-                        icon: 'icon2'
-                    },
+                    iconColor: '#D90429',
+                    // customClass: {
+                    //     icon: 'icon2'
+                    // },
                     confirmButtonText: "Check-Out",
                     confirmButtonColor: '#D90429'
                     });
