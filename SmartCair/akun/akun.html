@@ -52,10 +52,12 @@
                         <ion-icon name="chevron-forward-outline"></ion-icon>
                     </td>
                 </tr>
-                <tr id="bahasa">
+                <tr>
                     <td colspan="2" class="d-flex">
-                        <ion-icon class="icon-userSetting bahasa" name="language-outline"></ion-icon>
-                        <p>Bahasa</p>
+                        <a href="#" id="bahasa" class="d-flex">
+                            <ion-icon class="icon-userSetting bahasa" name="language-outline"></ion-icon>
+                            <p>Bahasa</p>
+                        </a>
                     </td>
                     <td class="text-end">
                         <ion-icon name="chevron-forward-outline"></ion-icon>
@@ -98,7 +100,7 @@
                 </a>
             </nav>
         </div>
-        
+
     </div>
 
     <!-- JS Files -->
@@ -116,8 +118,8 @@
                 confirmButtonText: "Ya",
                 confirmButtonColor: '#16697A',
                 cancelButtonColor: '#aaa'
-            }).then(function(result) {
-                if(result.isConfirmed){
+            }).then(function (result) {
+                if (result.isConfirmed) {
                     window.location.href = "../login/masuk.html"
                 }
             });

@@ -54,11 +54,242 @@ button {
 }
 
 
-@media (max-width: 991px){
+/* Mobile S */
+@media (min-width: 320px) {
     body{
-        padding: 0 0;
+        background-color: #e8e8e8;
+        padding: 0;
     }
     .navbar{
         margin: 0;
+        font-size: 12px;
+    }
+    .namaUser{
+        font-size: 14px;
+    }
+    .email {
+        font-size: 13px;
+    }
+    .fotoProfil{
+        width: 60px;
+    }
+    .profilAkun{
+        left: -20px;
+    }
+    .userSetting a{
+        text-decoration: none;
+        color: #676868;
+        font-size: 12px;
+    }
+    .userSetting p {
+        margin-top: 4px;
+    }
+    .icon-userSetting{
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+    #keluar p {
+        font-size: 12px;
+    }
+}
+
+/* Mobile M */
+@media (min-width: 375px) {
+    body{
+        background-color: #e8e8e8;
+        padding: 0;
+    }
+    .navbar{
+        margin: 0;
+        font-size: 12px;
+    }
+    .namaUser{
+        font-size: 14px;
+    }
+    .email {
+        font-size: 13px;
+    }
+    .fotoProfil{
+        width: 60px;
+    }
+    .profilAkun{
+        left: -20px;
+    }
+    .userSetting a{
+        text-decoration: none;
+        color: #676868;
+        font-size: 12px;
+    }
+    .userSetting p {
+        margin-top: 4px;
+    }
+    .icon-userSetting{
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+    #keluar p {
+        font-size: 12px;
+    }
+}
+
+/* Mobile L */
+@media (min-width: 425px) {
+    body{
+        background-color: #e8e8e8;
+        padding: 0 50px;
+    }
+    .navbar{
+        margin: 0 50px;
+        font-size: 12px;
+    }
+    .namaUser{
+        font-size: 14px;
+    }
+    .email {
+        font-size: 13px;
+    }
+    .fotoProfil{
+        width: 60px;
+    }
+    .profilAkun{
+        left: -20px;
+    }
+    .userSetting a{
+        text-decoration: none;
+        color: #676868;
+        font-size: 12px;
+    }
+    .userSetting p {
+        margin-top: 4px;
+    }
+    .icon-userSetting{
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+    #keluar p {
+        font-size: 12px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+    body{
+        background-color: #e8e8e8;
+        padding: 0 222px;
+    }
+    .navbar{
+        margin: 0 222px;
+        font-size: 12px;
+    }
+    .namaUser{
+        font-size: 14px;
+    }
+    .email {
+        font-size: 13px;
+    }
+    .fotoProfil{
+        width: 60px;
+    }
+    .profilAkun{
+        left: -20px;
+    }
+    .userSetting a{
+        text-decoration: none;
+        color: #676868;
+        font-size: 12px;
+    }
+    .userSetting p {
+        margin-top: 4px;
+    }
+    .icon-userSetting{
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+    #keluar p {
+        font-size: 12px;
+    }
+}
+
+/* Laptop */
+@media (min-width: 1024px) { 
+    body{
+        background-color: #e8e8e8;
+        padding: 0 350px;
+    }
+    .navbar{
+        margin: 0 350px;
+        font-size: 12px;
+    }
+    .namaUser{
+        font-size: 14px;
+    }
+    .email {
+        font-size: 13px;
+    }
+    .fotoProfil{
+        width: 60px;
+    }
+    .profilAkun{
+        left: -20px;
+    }
+    .userSetting a{
+        text-decoration: none;
+        color: #676868;
+        font-size: 12px;
+    }
+    .userSetting p {
+        margin-top: 4px;
+    }
+    .icon-userSetting{
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+    #keluar p {
+        font-size: 12px;
+    }
+} 
+
+/* Laptop L */
+@media (min-width: 1440px) { 
+    body{
+        background-color: #e8e8e8;
+        padding: 0 558px;
+    }
+    .navbar{
+        font-size: 12px;
+        margin: 0 558px;
+    }
+    .namaUser{
+        font-size: 14px;
+    }
+    .email {
+        font-size: 13px;
+    }
+    .fotoProfil{
+        width: 60px;
+    }
+    .profilAkun{
+        left: -20px;
+    }
+    .userSetting a{
+        text-decoration: none;
+        color: #676868;
+        font-size: 12px;
+    }
+    .userSetting p {
+        margin-top: 4px;
+    }
+    .icon-userSetting{
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+    #keluar p {
+        font-size: 12px;
     }
 }
