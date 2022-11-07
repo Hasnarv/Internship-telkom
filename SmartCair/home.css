@@ -4,7 +4,7 @@ body{
 }
 .container{
     background-color: white;
-    height: 90vh;
+    height: 100vh;
     padding-top: 2px;
 }
 header{
@@ -31,42 +31,75 @@ nav a {
     text-decoration: none;
 }
 
-@media (max-width: 991px){
+/* Mobile S */
+@media (min-width: 320px) {
     body{
-        padding: 0 0;
+        background-color: #e8e8e8;
+        padding: 0;
     }
     .navbar{
         margin: 0;
-    }
-    header{
-        background-color: white;
-        width: 100%;
-        z-index: 1;
-    }
-    header p{
-        font-size: 23px;
-        color: #16697A;
-        margin-top: 25px;
-        margin-bottom: 20px;
-        font-weight: 700;
-    }
-    input{
-        width: 94%;
-        padding: 10px 10px;
-        margin-top: 0px;
-        margin-bottom: 20px;
-        border-radius: 10px;
-        border: 0.5px solid #BABBBC;
-        background-color: #edf2f4;
-    }
-    button{
-        position: absolute;
-        right: 33px;
-        top: 85px;
-        border-radius: 5px;
-        border: none;
-        background-color: #16697A;
-        color: white;
-        padding: 5px 10px;
+        font-size: 12px;
     }
 }
+
+/* Mobile M */
+@media (min-width: 375px) {
+    body{
+        background-color: #e8e8e8;
+        padding: 0;
+    }
+    .navbar{
+        margin: 0;
+        font-size: 12px;
+    }
+}
+
+/* Mobile L */
+@media (min-width: 425px) {
+    body{
+        background-color: #e8e8e8;
+        padding: 0 50px;
+    }
+    .navbar{
+        margin: 0 50px;
+        font-size: 12px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+    body{
+        background-color: #e8e8e8;
+        padding: 0 222px;
+    }
+    .navbar{
+        margin: 0 222px;
+        font-size: 12px;
+    }
+}
+
+/* Laptop */
+@media (min-width: 1024px) { 
+    body{
+        background-color: #e8e8e8;
+        padding: 0 350px;
+    }
+    .navbar{
+        margin: 0 350px;
+        font-size: 12px;
+    }
+}
+
+/* Laptop L */
+@media (min-width: 1440px) { 
+    body{
+        background-color: #e8e8e8;
+        padding: 0 558px;
+    }
+    .navbar{
+        margin: 0 558px;
+        font-size: 12px;
+    }
+}
+
