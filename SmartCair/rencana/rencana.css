@@ -54,7 +54,7 @@ table{
     height: 700px;
 }
 
-@media (max-width: 991px){
+/* @media (max-width: 991px){
     body{
         padding: 0 0;
     }
@@ -88,5 +88,186 @@ table{
         background-color: #16697A;
         color: white;
         padding: 10px 10px 0px 10px;
+    }
+} */
+
+/* Mobile S */
+@media (min-width: 320px) {
+    body{
+        background-color: #e8e8e8;
+        padding: 0;
+    }
+    .navbar{
+        margin: 0;
+        font-size: 12px;
+    }
+    .title{
+        font-size: 15px;
+        width:65%;
+        margin-left: 50px;
+    }
+    h6{
+        font-size: 12px;
+        margin-left: 50px;
+        width: 70%;
+    }
+    .buttonAddRencana{
+        padding: 12px 0px 0px 0px;
+        width: 50%;
+        font-size: 12px;
+        margin: auto;
+    }
+    .icon{
+        font-size: 20px;
+    }
+}
+
+/* Mobile M */
+@media (min-width: 375px) {
+    body{
+        background-color: #e8e8e8;
+        padding: 0;
+    }
+    .navbar{
+        margin: 0;
+        font-size: 12px;
+    }
+    .title{
+        font-size: 15px;
+        width:65%;
+        margin-left: 65px;
+    }
+    h6{
+        font-size: 12px;
+        margin-left: 60px;
+        width: 70%;
+    }
+    .buttonAddRencana{
+        padding: 12px 0px 0px 0px;
+        width: 45%;
+        margin: auto;
+    }
+    .icon{
+        font-size: 20px;
+    }
+}
+
+/* Mobile L */
+@media (min-width: 425px) {
+    body{
+        background-color: #e8e8e8;
+        padding: 0 50px;
+    }
+    .navbar{
+        margin: 0 50px;
+        font-size: 12px;
+    }
+    .title{
+        font-size: 15px;
+        width:65%;
+        margin-left: 50px;
+    }
+    h6{
+        font-size: 12px;
+        margin-left: 50px;
+        width: 70%;
+    }
+    .buttonAddRencana{
+        padding: 12px 0px 0px 0px;
+        width: 50%;
+        margin: auto;
+    }
+    .icon{
+        font-size: 20px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+    body{
+        background-color: #e8e8e8;
+        padding: 0 222px;
+    }
+    .navbar{
+        margin: 0 222px;
+        font-size: 12px;
+    }
+    .title{
+        font-size: 15px;
+        width:65%;
+        margin-left: 50px;
+    }
+    h6{
+        font-size: 12px;
+        margin-left: 50px;
+        width: 70%;
+    }
+    .buttonAddRencana{
+        padding: 12px 0px 0px 0px;
+        width: 50%;
+        margin: auto;
+    }
+    .icon{
+        font-size: 20px;
+    }
+}
+
+/* Laptop */
+@media (min-width: 1024px) { 
+    body{
+        background-color: #e8e8e8;
+        padding: 0 350px;
+    }
+    .navbar{
+        margin: 0 350px;
+        font-size: 12px;
+    }
+    .title{
+        font-size: 15px;
+        width:65%;
+        margin-left: 50px;
+    }
+    h6{
+        font-size: 12px;
+        margin-left: 50px;
+        width: 70%;
+    }
+    .buttonAddRencana{
+        padding: 12px 0px 0px 0px;
+        width: 50%;
+        margin: auto;
+    }
+    .icon{
+        font-size: 20px;
+    }
+}
+
+/* Laptop L */
+@media (min-width: 1440px) { 
+    body{
+        background-color: #e8e8e8;
+        padding: 0 558px;
+    }
+    .navbar{
+        margin: 0 558px;
+        font-size: 12px;
+    }
+    .title{
+        font-size: 15px;
+        width:65%;
+        margin-left: 50px;
+    }
+    h6{
+        font-size: 12px;
+        margin-left: 50px;
+        width: 70%;
+    }
+    .buttonAddRencana{
+        padding: 12px 0px 0px 0px;
+        width: 50%;
+        margin: auto;
+    }
+    .icon{
+        font-size: 20px;
     }
 }

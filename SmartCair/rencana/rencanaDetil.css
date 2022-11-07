@@ -77,60 +77,201 @@ nav a {
     color: #BABBBC;
     text-decoration: none;
 }
-@media (max-width: 991px){
+
+/* Mobile S */
+@media (min-width: 320px) {
     body{
-        padding: 0 0;
-    }
-    .container{
-        padding: 0 10px;
+        background-color: #e8e8e8;
+        padding: 0;
     }
     .navbar{
         margin: 0;
+        font-size: 12px;
     }
     header{
-        background-color: white;
-        width: 95%;
-        z-index: 1;
-        padding-top: 0;
-    }
-    header p{
-        font-size: 23px;
-        color: #16697A;
-        margin-top: 25px;
-        margin-bottom: 20px;
-        font-weight: 700;
-    }
-    .searchInput{
-        margin-left: 35px;
-    }
-    input{
         font-size: 18px;
-        width: 90%;
-        padding: 8px 10px;
-        margin: 20px 0px 8px 20px;
-        border: 0.5px solid #BABBBC;
-        background-color: #edf2f4;
+        width: 65%;
     }
     .buttonAddRencana{
-        width: 50%;
-        font-weight: 700;
-        border-radius: 15px;
-        border: none;
-        background-color: #16697A;
-        color: white;
-        padding: 12px 15px 0px 10px;
-        margin: 0px 0px 100px 185px;
-        box-shadow: 0px -2px 15px #BABBBC;
+        width: 48%;
+        font-size: 12px;
+        margin: 0px 0px 100px 153px;
     }
     .button-search{
-        position: absolute;
-        width: 12%;
-        right:12px;
-        top: 25px;
-        border-radius: 10px;
-        border: none;
-        background-color: #16697A;
-        color: white;
-        padding: 0px 8px;
+        right: -80px;
+        top: 30px;
+    }
+    input{
+        font-size: 12px;
+        width: 155%;
+        padding: 9px 10px;
+    }
+    .icon{
+        font-size: 20px;
+    }
+}
+
+/* Mobile M */
+@media (min-width: 375px) {
+    body{
+        background-color: #e8e8e8;
+        padding: 0;
+    }
+    .navbar{
+        margin: 0;
+        font-size: 12px;
+    }
+    header{
+        font-size: 18px;
+        width: 100%;
+    }
+    .buttonAddRencana{
+        width: 41%;
+        font-size: 12px;
+        margin: 0px 0px 100px 210px;
+    }
+    .button-search{
+        right: 40px;
+        top: 30px;
+    }
+    input{
+        font-size: 12px;
+        width: 155%;
+        padding: 9px 10px;
+    }
+    .icon{
+        font-size: 20px;
+    }
+}
+
+/* Mobile L */
+@media (min-width: 425px) {
+    body{
+        background-color: #e8e8e8;
+        padding: 0 50px;
+    }
+    .navbar{
+        margin: 0 50px;
+        font-size: 12px;
+    }
+    header{
+        font-size: 18px;
+        width: 70%;
+    }
+    .buttonAddRencana{
+        width: 36%;
+        font-size: 12px;
+        margin: 0px 0px 100px 210px;
+    }
+    .button-search{
+        right: 12px;
+        top: 30px;
+    }
+    input{
+        font-size: 12px;
+        width: 125%;
+        padding: 9px 10px;
+    }
+    .icon{
+        font-size: 20px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+    body{
+        background-color: #e8e8e8;
+        padding: 0 222px;
+    }
+    .navbar{
+        margin: 0 222px;
+        font-size: 12px;
+    }
+    header{
+        font-size: 18px;
+        width: 35%;
+    }
+    .buttonAddRencana{
+        width: 20%;
+        font-size: 12px;
+        margin: 0px 0px 100px 380px;
+    }
+    .button-search{
+        right: -17px;
+        top: 30px;
+    }
+    input{
+        font-size: 12px;
+        width: 125%;
+        padding: 9px 10px;
+    }
+    .icon{
+        font-size: 20px;
+    }
+}
+
+/* Laptop */
+@media (min-width: 1024px) { 
+    body{
+        background-color: #e8e8e8;
+        padding: 0 350px;
+    }
+    .navbar{
+        margin: 0 350px;
+        font-size: 12px;
+    }
+    header{
+        font-size: 18px;
+        width: 30%;
+    }
+    .buttonAddRencana{
+        width: 15%;
+        font-size: 12px;
+        margin: 0px 0px 100px 510px;
+    }
+    .button-search{
+        right: 22px;
+        top: 30px;
+    }
+    input{
+        font-size: 12px;
+        width: 125%;
+        padding: 9px 10px;
+    }
+    .icon{
+        font-size: 20px;
+    }
+}
+
+/* Laptop L */
+@media (min-width: 1440px) { 
+    body{
+        background-color: #e8e8e8;
+        padding: 0 558px;
+    }
+    .navbar{
+        margin: 0 558px;
+        font-size: 12px;
+    }
+    header{
+        font-size: 18px;
+        width: 20%;
+    }
+    .buttonAddRencana{
+        width: 11%;
+        font-size: 12px;
+        margin: 0px 0px 100px 710px;
+    }
+    .button-search{
+        right: 2px;
+        top: 30px;
+    }
+    input{
+        font-size: 12px;
+        width: 125%;
+        padding: 9px 10px;
+    }
+    .icon{
+        font-size: 20px;
     }
 }
