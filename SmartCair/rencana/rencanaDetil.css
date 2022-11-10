@@ -48,6 +48,10 @@ header input {
     font-size: 0.9em;
 }
 
+.nama{
+    font-weight: 800;
+}
+
 .buttonAddRencana {
     width: 11em;
     background-color: #16697A;

@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="retensi.css">
+
+  <title>Paket Retensi</title>
+</head>
+
+<body>
+  <div class="container">
+    <header class="position-fixed">
+      <div class="d-flex">
+        <button class="button-back" onclick="Redirect()">
+          <ion-icon class="icon-back" name="chevron-back-outline"></ion-icon>
+        </button>
+        <p>Paket Retensi</p>
+      </div>
+      <!-- <div class="searchInput">
+        <input type="text" id="search" placeholder="coba cari">
+        <button onclick="search()" class="button-search">Cari</button>
+      </div> -->
+    </header>
+    <div class="main center">
+        <button onclick="location.href='retensi3PFull.html'" class="button">Paket Retensi 3P Internet, Phone & UseeTV</button>
+        <button onclick="location.href='retensi1PInternet.html'" class="button">Paket Retensi 1P Internet</button>
+        <button onclick="location.href='retensi1PPhone.html'" class="button">Paket Retensi 1P Phone</button>
+        <button onclick="location.href='retensi2PInternetPhone.html'" class="button">Paket Retensi 2P Internet & Phone</button>
+        <button onclick="location.href='retensi2PInternetUseeTV.html'" class="button">Paket Retensi 2P Internet & UseeTV</button>
+    </div>
+    <!-- <nav class="navbar fixed-bottom">
+      <a href="../home.html" class="nav-item col-3 text-center">
+        <img src="../img/icon_Beranda.png" alt="icon_Beranda">
+        <p>Beranda</p>
+      </a>
+      <a href="../rencana/rencana.html" class="nav-item col-3 text-center">
+        <img src="../img/icon_rencana.png" alt="icon_rencana">
+        <p>Rencana</p>
+      </a>
+      <a href="index.html" class="nav-item col-3 text-center">
+        <img src="../img/icon_faq-aktif.png" alt="">
+        <p>FAQ</p>
+      </a>
+      <a href="../akun/akun.html" class="nav-item col-3 text-center">
+        <img src="../img/icon_akun.png" alt="">
+        <p>Akun</p>
+      </a>
+    </nav> -->
+  </div>
+
+  <script src="../js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <script>
+    function Redirect() {
+      window.location = "../faq/faq_hnk.html"
+    }
+  </script>
+</body>
+
+</html>

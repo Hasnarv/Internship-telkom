@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="styleSubRetensi.css">
+
+    <title>Paket Retensi</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="position-fixed">
+            <div class="d-flex">
+                <button class="button-back" onclick="Redirect()">
+                    <ion-icon class="icon-back" name="chevron-back-outline"></ion-icon>
+                </button>
+                <p>Paket Retensi</p>
+            </div>
+            <!-- <div class="searchInput">
+        <input type="text" id="search" placeholder="coba cari">
+        <button onclick="search()" class="button-search">Cari</button>
+      </div> -->
+        </header>
+        <div class="main center">
+            <button onclick="location.href='retensi.html'" class="button">Paket Retensi 1P Internet</button>
+
+            <table>
+                <tr>
+                    <th>Internet</th>
+                    <th>Paket Retensi</th>
+                </tr>
+                <tr>
+                    <td>10 mbps</td>
+                    <td>Rp170.000</td>
+                </tr>
+                <tr>
+                    <td>20 mbps</td>
+                    <td>Rp220.000</td>
+                </tr>
+                <tr>
+                    <td>30 mbps</td>
+                    <td>Rp290.000</td>
+                </tr>
+                <tr>
+                    <td>40 mbps</td>
+                    <td>Rp360.000</td>
+                </tr>
+            </table>
+        </div>
+        <!-- <nav class="navbar fixed-bottom">
+      <a href="../home.html" class="nav-item col-3 text-center">
+        <img src="../img/icon_Beranda.png" alt="icon_Beranda">
+        <p>Beranda</p>
+      </a>
+      <a href="../rencana/rencana.html" class="nav-item col-3 text-center">
+        <img src="../img/icon_rencana.png" alt="icon_rencana">
+        <p>Rencana</p>
+      </a>
+      <a href="index.html" class="nav-item col-3 text-center">
+        <img src="../img/icon_faq-aktif.png" alt="">
+        <p>FAQ</p>
+      </a>
+      <a href="../akun/akun.html" class="nav-item col-3 text-center">
+        <img src="../img/icon_akun.png" alt="">
+        <p>Akun</p>
+      </a>
+    </nav> -->
+    </div>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script>
+        function Redirect() {
+            window.location = "../paketRetensi/retensi.html"
+        }
+        function inputClick() {
+            window.location = "cari.html"
+        }
+    </script>
+    <!-- <script>
+    function inputClick(){
+      window.location = "cari.html"
+    }
+
+    $("input").on("keyup", function(){
+      $(".item-kendala a").filter(function(){
+        $(this).toggle($(this).text().toLowerCase().indexOf($("input").val().toLowerCase()) > -1);
+      });
+    });
+  </script> -->
+</body>
+
+</html>
