@@ -1,4 +1,107 @@
-body{
+body {
+    background-color: rgb(211, 211, 211);
+}
+
+.container {
+    background-color: white;
+    height: 100vh;
+    padding-top: 0.5em;
+    width: 450px;
+}
+
+header {
+    font-size: 1.5em;
+    color: #16697A;
+    margin: 2em auto;
+    text-align: center;
+}
+
+.title {
+    margin-left: 1.6em;
+}
+
+.title p {
+    font-size: 0.8em;
+}
+
+.input-data {
+    padding: 0 1.5em;
+}
+
+input {
+    width: 100%;
+    font-size: 0.8em;
+    padding: 0.8em;
+    margin: 0.5em 0;
+    border-radius: 10px;
+    border: 0.5px solid #BABBBC;
+    background-color: #edf2f4;
+}
+
+.forgot {
+    justify-content: space-between;
+    font-size: 0.8em;
+}
+
+.forgot p {
+    margin: auto 0;
+}
+
+.checkIngatSaya {
+    width: 1.3em;
+}
+
+.submit {
+    border-radius: 10px;
+    border: none;
+    background-color: #FFA62B;
+    color: white;
+    margin: 1.5em auto;
+    padding: 0.5em 10.2em;
+}
+
+span a {
+    color: #16697A;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.opsi-lain {
+    margin-top: 4em;
+}
+
+.btn-masuk-google{
+    width: 88%;
+    border-radius: 10px;
+    border: 1px solid #BABBBC;
+    background-color: transparent;
+    font-size: 0.9em;
+    margin: 1em auto;
+    padding: 0.3em 0;
+}
+
+.btn-masuk-google .icons {
+    font-size: 2.5em;
+    padding-left: 1.5em;
+    margin-right: -1.3em;
+}
+
+.btn-masuk-google p {
+    margin: auto;
+}
+
+@media (min-width: 320px) and (max-width: 370px){
+    .container {
+        height: 150vh;
+    }
+}
+@media (min-width: 371px) and (max-width: 425px){
+    .container {
+        height: 150vh;
+    }
+}
+
+/* body{
     background-color: #e8e8e8;
     padding: 0 575px;
 }
@@ -88,10 +191,5 @@ p span a{
         right: 20px;
         color: #489FB5;
     }
-    /* button a{
-        font-weight: 800;
-        color: white;
-        text-decoration: none;
-    } */
-}
+} */
 
