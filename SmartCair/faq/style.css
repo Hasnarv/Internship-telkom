@@ -12,6 +12,7 @@ header {
     font-size: 1.5em;
     color: #16697A;
     padding: 20px 0;
+    background-color: white;
 }
 
 .searchInput input {
