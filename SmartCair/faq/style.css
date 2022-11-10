@@ -44,6 +44,7 @@ header {
     padding: 1.5em;
     text-decoration: none;
     color: #626262;
+    z-index: 1;
 }
 
 nav {
