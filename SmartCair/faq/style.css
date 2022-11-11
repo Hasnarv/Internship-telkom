@@ -13,6 +13,7 @@ header {
     color: #16697A;
     padding: 20px 0;
     background-color: white;
+    z-index: 1;
 }
 
 .searchInput input {
@@ -44,7 +45,6 @@ header {
     padding: 1.5em;
     text-decoration: none;
     color: #626262;
-    z-index: 1;
 }
 
 nav {
