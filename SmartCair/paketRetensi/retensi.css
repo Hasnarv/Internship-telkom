@@ -12,6 +12,7 @@ header {
     font-size: 1.2em;
     font-weight: 700;
     color: #16697A;
+    background-color: white;
     padding: 20px 0;
 }
 
@@ -25,6 +26,7 @@ header {
     align-items: center;
     align-content: center;
 } */
+
 
 .button-back {
     font-size: 1em;
@@ -130,23 +132,25 @@ nav a {
 
     .button {
         font-size: 0.7em;
+        width: 100%;
     }
 }
 
 /* Mobile M */
 @media (min-width: 375px) and (max-width: 424px) {
     header {
-        width: 99.9vw;
+        width: 99.37vw;
     }
 
     .container {
         /* height: 100vh; */
-        width: 99.9vw;
+        width: 99.37vw;
 
     }
 
     .button {
         font-size: 0.8em;
+        width: 100%;
     }
 }
 
