@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- CSS Files -->
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="akun.css">
 
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
@@ -43,7 +43,7 @@
                 </tr>
                 <tr>
                     <td class="d-flex">
-                        <a href="presensi.html" class="d-flex">
+                        <a href="#" id="presensi" class="d-flex">
                             <ion-icon class="icon-userSetting" name="scan-circle"></ion-icon>
                             <p>Presensi</p>
                         </a>
@@ -107,9 +107,34 @@
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="script.js"></script>
+    <script src="script-presensi.js"></script>
 
     <script>
+        document.getElementById('presensi').addEventListener('click', () => {
+            const localData = localStorage.getItem("presensi")
+            if (localData !== null) {
+                Swal.fire({
+                    title: "Anda belum  Check-out",
+                    html: "Silahkan melakukan Check-out !",
+                    iconHtml: '<ion-icon name="log-out-outline"></ion-icon>',
+                    iconColor: '#D90429',
+                    confirmButtonText: "Check-Out",
+                    confirmButtonColor: '#D90429',
+                    allowOutsideClick: false
+                }).then((result) => {
+                    console.log(result)
+                    // jika checkout di klik maka hapus localstorage
+                    // dan redirect ke file akun.html
+                    if (result.isConfirmed) {
+                        localStorage.removeItem("presensi")
+                        window.location = "akun.html";
+                    }
+                })
+            } else {
+                window.location = "presensi.html";
+            }
+        })
+
         document.getElementById('keluar').addEventListener('click', () => {
             swal.fire({
                 text: "Apa Anda yakin ingin keluar?",

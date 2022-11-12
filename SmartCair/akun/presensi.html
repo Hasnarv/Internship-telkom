@@ -7,9 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- CSS Files -->
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="presensi.css">
 
+    <!-- sweet alert -->
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <title>Presensi</title>
@@ -34,34 +35,34 @@
                         <p class="item-opsi m-2">Menggabungkan tagihan pelanggan menjadi single billing</p>
                     </div>
                     <div class="opsi d-flex">
-                        <input type="checkbox" class="opsi" id="snk">
+                        <input type="checkbox" class="opsi" id="snk2">
                         <p class="item-opsi m-2">Melakukan claim sebelum pelanggan membayar tagihan</p>
                     </div>
                     <div class="opsi d-flex">
-                        <input type="checkbox" class="opsi" id="snk">
+                        <input type="checkbox" class="opsi" id="snk3">
                         <p class="item-opsi m-2">Menawarkan promo cashback</p>
                     </div>
                     <div class="opsi d-flex">
-                        <input type="checkbox" class="opsi" id="snk">
+                        <input type="checkbox" class="opsi" id="snk4">
                         <p class="item-opsi m-2">Melakukan isolir</p>
                     </div>
                 </li>
                 <li>
                     <b>Apabila pelanggan memiliki kendala terkait harga, hal yang harus dilakukan, kecuali....</b>
                     <div class="opsi d-flex">
-                        <input type="checkbox" class="opsi" id="snk">
+                        <input type="checkbox" class="opsi" id="snk5">
                         <p class="item-opsi m-2">Memberikan solusi moda payment</p>
                     </div>
                     <div class="opsi d-flex">
-                        <input type="checkbox" class="opsi" id="snk">
+                        <input type="checkbox" class="opsi" id="snk6">
                         <p class="item-opsi m-2">Menawarkan cicilan include isolir kepada pelanggan</p>
                     </div>
                     <div class="opsi d-flex">
-                        <input type="checkbox" class="opsi" id="snk">
+                        <input type="checkbox" class="opsi" id="snk7">
                         <p class="item-opsi m-2">Menawarkan penghapusan denda kepada pelanggan</p>
                     </div>
                     <div class="opsi d-flex">
-                        <input type="checkbox" class="opsi" id="snk">
+                        <input type="checkbox" class="opsi" id="snk8">
                         <p class="item-opsi m-2">Menawarkan paket retensi kepada pelanggan</p>
                     </div>
                 </li>
@@ -74,41 +75,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script>
-        function Redirect() {
-            window.location = "akun.html"
-        }
-        document.getElementById('submit-test').addEventListener('click', () => {
-            swal.fire({
-                html: "Silahkan melakukan presensi !",
-                iconHtml: '<ion-icon name="log-in-outline"></ion-icon>',
-                iconColor: '#4e9a06',
-                // customClass: {
-                //     icon: 'icon'
-                // },
-                confirmButtonText: "Check-In",
-                confirmButtonColor: '#4e9a06'
-            }).then(function (result) {
-                if (result.isConfirmed) {
-                    window.location.href = "../akun/akun.html"
-                }
-            }).then(function (result) {
-                document.getElementById('presensi').addEventListener('click', () => {
-                    swal.fire({
-                        title: "Anda belum  Check-out",
-                        html: "Silahkan melakukan Check-out !",
-                        iconHtml: '<ion-icon name="log-out-outline"></ion-icon>',
-                        iconColor: '#D90429',
-                        // customClass: {
-                        //     icon: 'icon2'
-                        // },
-                        confirmButtonText: "Check-Out",
-                        confirmButtonColor: '#D90429'
-                    });
-                })
-            });
-        })
-    </script>
+    <script src="script-presensi.js"></script>
+
 </body>
 
 </html>
