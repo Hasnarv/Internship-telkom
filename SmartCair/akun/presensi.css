@@ -35,7 +35,57 @@ header p {
     padding: 0.5em 11.6em;
 }
 
-@media (min-width: 320px) and (max-width: 370px){
+
+/* Mobile S */
+@media (min-width: 320px) and (max-width: 374px) {
+    .container {
+        /* height: 100vh; */
+        width: 100vw;
+
+    }
+
+    .button-back{
+        font-size: 0.8em;
+    }
+
+    header p {
+        font-size: 0.9em;
+    }
+
+    main {
+        font-size: 0.8em;
+    }
+    .submit {
+        font-size: 0.88em;
+    }
+}
+
+/* Mobile M */
+@media (min-width: 375px) and (max-width: 424px) {
+    .container {
+        /* height: 100vh; */
+        width: 99.9vw;
+
+    }
+
+    .button-back{
+        font-size: 0.8em;
+    }
+
+    header p {
+        font-size: 1em;
+    }
+
+    main {
+        font-size: 0.9em;
+    }
+
+    .submit {
+        font-size: 0.83em;
+    }
+}
+
+/* @media (min-width: 320px) and (max-width: 370px){
     .container {
         height: 140vh;
     }
@@ -44,7 +94,7 @@ header p {
     .container {
         height: 120vh;
     }
-}
+} */
 
 /* body{
     background-color: #e8e8e8;

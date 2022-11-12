@@ -48,10 +48,6 @@ header input {
     font-size: 0.9em;
 }
 
-.nama{
-    font-weight: 800;
-}
-
 .buttonAddRencana {
     width: 11em;
     background-color: #16697A;
@@ -82,7 +78,77 @@ nav a {
     color: #BABBBC;
 }
 
-@media (min-width: 320px) and (max-width: 370px){
+/* Mobile S */
+@media (min-width: 320px) and (max-width: 374px) {
+    .container {
+        /* height: 100vh; */
+        width: 99.9vw;
+
+    }
+
+    header {
+        font-size: 0.8em;
+    }
+
+    header input {
+        font-size: 0.86em;
+    }
+
+    .button-search {
+        right: 3.4em;
+        top: 1.7em;
+    }
+
+    .main h6 {
+        font-size: 0.78em;
+    }
+
+    .buttonAddRencana {
+        font-size: 0.6em;
+        margin-right: 1.5em;
+    }
+
+    nav {
+        width: 99.9vw;
+    }
+}
+
+/* Mobile M */
+@media (min-width: 375px) and (max-width: 424px) {
+    .container {
+        /* height: 100vh; */
+        width: 99.9vw;
+
+    }
+
+    header {
+        font-size: 0.93em;
+    }
+
+    header input {
+        font-size: 0.86em;
+    }
+
+    .button-search {
+        right: 3.4em;
+        top: 1.7em;
+    }
+
+    .main h6 {
+        font-size: 0.78em;
+    }
+
+    .buttonAddRencana {
+        font-size: 0.6em;
+        margin-right: 1.5em;
+    }
+
+    nav {
+        width: 99.9vw;
+    }
+}
+
+/* @media (min-width: 320px) and (max-width: 370px){
     .container {
         height: 140vh;
     }
@@ -91,7 +157,7 @@ nav a {
     .container {
         height: 120vh;
     }
-}
+} */
 
 
 /* body{
