@@ -6,6 +6,7 @@ body {
     background-color: white;
     height: max-content;
     width: 450px;
+    height: 150vh;
 }
 
 header {
@@ -64,7 +65,7 @@ header {
 } */
 
 .main {
-    padding-top: 5em;
+    padding-top: 8.5em;
     padding-bottom: 10em;
 }
 
