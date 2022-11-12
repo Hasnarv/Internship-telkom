@@ -158,6 +158,29 @@ tr:nth-child(even) {
         width: 99.9vw;
     }
 
+
+    .container {
+        /* height: 100vh; */
+        width: 99.9vw;
+
+    }
+
+    .button {
+        padding: 0.5em 0.5em;
+     width: 90vw;
+     }
+
+     table {
+        width: 100%;
+     }
+}
+
+@media (min-width: 374px) and (max-width: 768px) {
+    header {
+        width: 99.9vw;
+    }
+
+
     .container {
         /* height: 100vh; */
         width: 99.9vw;
