@@ -4,9 +4,9 @@ body {
 
 .container {
     background-color: white;
-    height: 100vh;
+    height: 120vh;
     padding-top: 0.5em;
-    width: 450px;
+    width: 424.9px;
 }
 
 header {
@@ -95,7 +95,55 @@ span a {
     margin: auto;
 }
 
-@media (min-width: 320px) and (max-width: 370px){
+/* Mobile S */
+@media (min-width: 320px) and (max-width: 374px) {
+    .container {
+        /* height: 100vh; */
+        width: 100vw;
+
+    }
+
+    .title {
+       font-size:  0.9em;
+    }
+
+    .submit {
+        font-size: 0.75em;
+        margin: 0 auto;
+        padding-left: 9em;
+        padding-right: 9em;
+    }
+
+    .opsi-lain {
+        font-size: 0.68em;
+    }
+}
+
+/* Mobile M */
+@media (min-width: 375px) and (max-width: 424px) {
+    .container {
+        /* height: 100vh; */
+        width: 100vw;
+
+    }
+
+    .title {
+       font-size:  0.9em;
+    }
+
+    .submit {
+        font-size: 0.75em;
+        margin: 0 auto;
+        padding-left: 9em;
+        padding-right: 9em;
+    }
+
+    .opsi-lain {
+        font-size: 0.68em;
+    }
+}
+
+/* @media (min-width: 320px) and (max-width: 370px){
     .container {
         height: 150vh;
     }
@@ -104,7 +152,7 @@ span a {
     .container {
         height: 150vh;
     }
-}
+} */
 
 /* body{
     background-color: #e8e8e8;

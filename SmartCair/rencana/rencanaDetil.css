@@ -9,41 +9,68 @@ body {
 }
 
 header {
-    width: 26.5em;
-    padding-top: 1.5em;
+    font-size: 1.5em;
+    color: #16697A;
+    padding: 20px 0;
     background-color: white;
+    z-index: 1;
+    width: 438px;
+    /* width: 438px;
+    padding-top: 1.5em;
+    background-color: white; */
 }
 
-header p {
+/* header p {
     font-size: 1.3em;
     color: #16697A;
     margin-right: 1em;
-}
+} */
 
-header input {
-    width: 19.4em;
-    padding: 0.5em 0.5em;
-    font-size: 1em;
+.searchInput input {
+    width: 26.5em;
+    font-size: 1rem;
+    padding: 0.5em 1em;
     border-radius: 10px;
     border: 1px solid #BABBBC;
+
+    /* padding: 0.5em 0.5em;
+    font-size: 1em;
+    width: 20em;
+    border-radius: 10px;
+    border: 1px solid #BABBBC; */
 }
 
-.button-search {
-    padding: 0.2em 0.5em;
+.searchInput button {
+    font-size: 0.6em;
+    padding: 0.4em 0.6em;
     position: absolute;
-    right: 1.1em;
-    top: 1.9em;
+    right: 1.3em;
+    bottom: 1.7em;
     border-radius: 8px;
     background-color: #16697A;
     color: white;
     border: none;
 }
 
+/* .button-search {
+    padding: 0.2em 0.5em;
+    position: absolute;
+    right: 1.2em;
+    top: 1.8em;
+    border-radius: 8px;
+    background-color: #16697A;
+    color: white;
+    border: none;
+} */
+
 .main {
     padding-top: 5em;
     padding-bottom: 10em;
 }
 
+.nama {
+    font-weight: 700;
+}
 .main h6 {
     font-size: 0.9em;
 }
@@ -87,16 +114,18 @@ nav a {
     }
 
     header {
-        font-size: 0.8em;
+        font-size: 1.2em;
+        width: 96vw;
+    }
+    
+    .searchInput input {
+        width: 90vw;
     }
 
-    header input {
-        font-size: 0.86em;
-    }
-
-    .button-search {
-        right: 3.4em;
-        top: 1.7em;
+    .searchInput button {
+        font-size: 0.7em;
+        margin-bottom:0.3em;
+        margin-right: 0.6em;
     }
 
     .main h6 {
@@ -122,16 +151,17 @@ nav a {
     }
 
     header {
-        font-size: 0.93em;
+        font-size: 1.2em;
+        width: 96vw;
+    }
+    
+    .searchInput input {
+        width: 95vw;
     }
 
-    header input {
-        font-size: 0.86em;
-    }
-
-    .button-search {
-        right: 3.4em;
-        top: 1.7em;
+    .searchInput button {
+        font-size: 0.75em;
+        margin-right: -0.5em;
     }
 
     .main h6 {

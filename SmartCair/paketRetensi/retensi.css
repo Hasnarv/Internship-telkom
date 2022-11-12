@@ -9,6 +9,13 @@ body {
 }
 
 header {
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #16697A;
+    padding: 20px 0;
+}
+
+/* header {
     font-weight: 700;
     font-size: 1.1em;
     color: #16697A;
@@ -17,7 +24,7 @@ header {
     width: 430px;
     align-items: center;
     align-content: center;
-}
+} */
 
 .button-back {
     font-size: 1em;
