@@ -10,9 +10,9 @@ body {
 
 header {
     font-weight: 700;
-    font-size: 1.5em;
+    font-size: 1.1em;
     color: #16697A;
-    padding: 40px 0 0 0;
+    padding: 2em 0 0 0;
     background-color: white;
     width: 430px;
     align-items: center;
@@ -35,20 +35,20 @@ header {
 table {
     border-collapse: collapse;
     border-spacing: 0;
-    width: 100%;
+    /* width: 60vw; */
     border: 1px solid #ddd;
-    font-size: 12px;
+    font-size: 0.7em;
 }
 
 th{
     color: #16697A;
-    font-size: 15px;
+    font-size: 1em;
 }
 
 th,
 td {
     text-align: center;
-    padding: 16px;
+    padding: 1em;
 }
 
 th:first-child,
@@ -71,7 +71,7 @@ tr:nth-child(even) {
 }
 
 .button {
-    padding: 10px 20px;
+    padding: 1em 1.5em;
     margin-bottom: 2em;
     font-size: 1rem;
     justify-content: center;
@@ -97,7 +97,7 @@ tr:nth-child(even) {
     transform: translateY(2px);
 }
 
-@media (min-width: 320px) and (max-width: 370px) {
+/* @media (min-width: 320px) and (max-width: 370px) {
     .container {
         height: 140vh;
     }
@@ -106,5 +106,40 @@ tr:nth-child(even) {
 @media (min-width: 371px) and (max-width: 425px) {
     .container {
         height: 120vh;
+    }
+} */
+
+/* Mobile S */
+@media (min-width: 320px) and (max-width: 374px) {
+    header {
+        width: 99.9vw;
+    }
+
+    .container {
+        /* height: 100vh; */
+        width: 99.9vw;
+
+    }
+
+    .button {
+        font-size: 0.7em;
+    }
+
+}
+
+/* Mobile M */
+@media (min-width: 375px) and (max-width: 424px) {
+    header {
+        width: 99.9vw;
+    }
+
+    .container {
+        /* height: 100vh; */
+        width: 99.9vw;
+
+    }
+
+    .button {
+        font-size: 0.8em;
     }
 }

@@ -60,7 +60,65 @@ nav a {
     color: #BABBBC;
 }
 
-@media (min-width: 320px) and (max-width: 370px){
+/* Mobile S */
+@media (min-width: 320px) and (max-width: 374px) {
+    .container {
+        /* height: 100vh; */
+        width: 99.9vw;
+
+    }
+
+    header {
+        font-size: 1.2em;
+    }
+    
+    .searchInput input {
+        width: 18.5em;
+    }
+
+    .searchInput button {
+        font-size: 0.75em;
+    }
+
+    .card {
+        font-size: 0.75em;
+    }
+
+    nav {
+        width: 99.9vw;
+    }
+}
+
+/* Mobile M */
+@media (min-width: 375px) and (max-width: 424px) {
+    .container {
+        /* height: 100vh; */
+        width: 99.9vw;
+
+    }
+
+    header {
+        font-size: 1.2em;
+    }
+    
+    .searchInput input {
+        width: 21.5em;
+    }
+
+    .searchInput button {
+        font-size: 0.75em;
+    }
+
+    .card {
+        font-size: 0.79em;
+    }
+
+    nav {
+        width: 99.9vw;
+    }
+}
+
+/* @media (min-width: 320px) and (max-width: 370px){
     .container {
         height: 140vh;
     }
@@ -69,7 +127,7 @@ nav a {
     .container {
         height: 120vh;
     }
-}
+} */
 
 
 /* body{
