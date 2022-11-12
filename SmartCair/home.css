@@ -34,7 +34,7 @@ nav a {
     color: #BABBBC;
 }
 
-@media (min-width: 320px) and (max-width: 370px){
+/* @media (min-width: 320px) and (max-width: 370px){
     .container {
         height: 140vh;
     }
@@ -43,7 +43,7 @@ nav a {
     .container {
         height: 120vh;
     }
-}
+} */
 
 /* body{
     background-color: #e8e8e8;
@@ -79,28 +79,38 @@ nav a {
 } */
 
 /* Mobile S */
-/* @media (min-width: 320px) {
-    body{
-        background-color: #e8e8e8;
-        padding: 0;
+@media (min-width: 320px) and (max-width: 374px) {
+    .container {
+        /* height: 100vh; */
+        width: 99.9vw;
+
     }
-    .navbar{
-        margin: 0;
-        font-size: 12px;
+    
+    .main img {
+        width: 95%;
     }
-} */
+
+    nav {
+        width: 99.9vw;
+    }
+}
 
 /* Mobile M */
-/* @media (min-width: 375px) {
-    body{
-        background-color: #e8e8e8;
-        padding: 0;
+@media (min-width: 375px) and (max-width: 424px) {
+    .container {
+        /* height: 100vh; */
+        width: 99.9vw;
+
     }
-    .navbar{
-        margin: 0;
-        font-size: 12px;
+
+    .main img {
+        width: 90%;
     }
-} */
+
+    nav {
+        width: 99.9vw;
+    }
+}
 
 /* Mobile L */
 /* @media (min-width: 425px) {
