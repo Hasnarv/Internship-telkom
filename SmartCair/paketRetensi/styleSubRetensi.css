@@ -95,7 +95,7 @@ tr:nth-child(even) {
 /* Mobile S */
 @media (min-width: 320px) and (max-width: 374px) {
     header {
-        width: 83vw;
+        width: 99.9vw;
     }
 
     .container {
@@ -110,12 +110,11 @@ tr:nth-child(even) {
 
     table {
         width: 100%;
-     }
-
+    }
 }
 
 /* Mobile M */
-@media (min-width: 375px) and (max-width: 425px) {
+@media (min-width: 375px) and (max-width: 424px) {
     header {
         width: 99.9vw;
     }
