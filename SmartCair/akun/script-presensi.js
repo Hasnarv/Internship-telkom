@@ -12,7 +12,7 @@ document.getElementById('submit-test').addEventListener('click', () => {
     
     function sukses(){
         Swal.fire({
-            html: "Silahkan melakukan presensi !",
+            html: "Silahkan melakukan presensi ",
             iconHtml: '<ion-icon name="log-in-outline"></ion-icon>',
             iconColor: '#4e9a06',
             confirmButtonText: "Check-In",
@@ -57,8 +57,7 @@ document.getElementById('submit-test').addEventListener('click', () => {
     } else {
         // jika belum memilih jawaban
         Swal.fire({
-            title: 'Pertanyaan belum dijawab',
-            text: "mohon jawab terlebih dahulu, untuk melakukan presensi",
+            text: "Mohon jawab terlebih dahulu, untuk melakukan presensi",
             icon: 'warning',
             confirmButtonText: 'OK'
         })
