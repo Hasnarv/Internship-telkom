@@ -16,16 +16,7 @@ header {
     background-color: white;
     z-index: 1;
     width: 438px;
-    /* width: 438px;
-    padding-top: 1.5em;
-    background-color: white; */
 }
-
-/* header p {
-    font-size: 1.3em;
-    color: #16697A;
-    margin-right: 1em;
-} */
 
 .searchInput input {
     width: 26.5em;
@@ -33,12 +24,6 @@ header {
     padding: 0.5em 1em;
     border-radius: 10px;
     border: 1px solid #BABBBC;
-
-    /* padding: 0.5em 0.5em;
-    font-size: 1em;
-    width: 20em;
-    border-radius: 10px;
-    border: 1px solid #BABBBC; */
 }
 
 .searchInput button {
@@ -53,31 +38,21 @@ header {
     border: none;
 }
 
-/* .button-search {
-    padding: 0.2em 0.5em;
-    position: absolute;
-    right: 1.2em;
-    top: 1.8em;
-    border-radius: 8px;
-    background-color: #16697A;
-    color: white;
-    border: none;
-} */
-
 .main {
-    padding-top: 8.5em;
+    padding-top: 8em;
     padding-bottom: 10em;
 }
 
 .nama {
-    font-weight: 700;
+    font-weight: 800;
 }
+
 .main h6 {
     font-size: 0.9em;
 }
 
 .buttonAddRencana {
-    width: 11em;
+    width: 12em;
     background-color: #16697A;
     color: white;
     border: none;
@@ -86,11 +61,13 @@ header {
     margin: 100px auto;
     left: 22em;
     font-size: 0.8em;
+    font-weight: 700;
 }
 
 .buttonAddRencana .icon {
     font-size: 1.4em;
     margin-right: 0.3em;
+    font-weight: 700;
 }
 
 nav {
@@ -111,7 +88,6 @@ nav a {
     .container {
         /* height: 100vh; */
         width: 99.9vw;
-
     }
 
     header {
@@ -141,6 +117,10 @@ nav a {
     nav {
         width: 99.9vw;
     }
+
+    .nama {
+        font-weight: 700;
+    }
 }
 
 /* Mobile M */
@@ -148,7 +128,6 @@ nav a {
     .container {
         /* height: 100vh; */
         width: 99.9vw;
-
     }
 
     header {
@@ -177,294 +156,7 @@ nav a {
     nav {
         width: 99.9vw;
     }
-}
-
-/* @media (min-width: 320px) and (max-width: 370px){
-    .container {
-        height: 140vh;
+    .nama {
+        font-weight: 700;
     }
 }
-@media (min-width: 371px) and (max-width: 425px){
-    .container {
-        height: 120vh;
-    }
-} */
-
-
-/* body{
-    background-color: #e8e8e8;
-    padding: 0 575px;
-}
-.container{
-    background-color: white;
-    height: 100vh;
-    padding-top: 2px;
-}
-header{
-    font-size: 23px;
-    color: #16697A;
-    padding: 25px 0px 0px 0px;
-    margin-top: -2px;
-    font-weight: 700;
-    background-color: white;
-    width: 23%;
-}
-.buttonAddRencana{
-    width: 13%;
-    font-weight: 700;
-    border-radius: 15px;
-    border: none;
-    background-color: #16697A;
-    color: white;
-    padding: 12px 0px 0px 10px;
-    margin: 0px 0px 100px 735px;
-    box-shadow: 0px -2px 15px #BABBBC;
-}
-.button-search{
-    position: absolute;
-    right: 18px;
-    top: 30px;
-    border-radius: 5px;
-    border: none;
-    background-color: #16697A;
-    color: white;
-    padding: 0px 5px;
-}
-input{
-    font-size: 18px;
-    width: 100%;
-    padding: 8px 10px;
-    margin: 0px 0px 8px 10px;
-    border-radius: 10px;
-    border: 0.5px solid #BABBBC;
-    background-color: #edf2f4;
-}
-.icon{
-    font-size: 25px;
-    text-align: center;
-    margin: 0px 8px 0px 5px;
-}
-.main{
-    margin:auto;
-    text-align: justify;
-    padding-bottom: 150px;
-    padding-top: 85px;
-}
-.nama{
-    font-weight: 700;
-    color: black;
-    margin: 10px 0px 5px 13px;
-}
-h6{
-    color: #6E7889;
-    margin: 0px 0px 10px 13px;
-}
-.navbar{
-    background-color: white;
-    box-shadow: 0px -2px 20px #e9e9e9;
-    text-decoration: none;
-    color: #BABBBC;
-    margin: 0 575px;
-}
-nav a {
-    color: #BABBBC;
-    text-decoration: none;
-} */
-
-/* Mobile S */
-/* @media (min-width: 320px) {
-    body{
-        background-color: #e8e8e8;
-        padding: 0;
-    }
-    .navbar{
-        margin: 0;
-        font-size: 12px;
-    }
-    header{
-        font-size: 18px;
-        width: 65%;
-    }
-    .buttonAddRencana{
-        width: 48%;
-        font-size: 12px;
-        margin: 0px 0px 100px 153px;
-    }
-    .button-search{
-        right: -80px;
-        top: 30px;
-    }
-    input{
-        font-size: 12px;
-        width: 155%;
-        padding: 9px 10px;
-    }
-    .icon{
-        font-size: 20px;
-    }
-} */
-
-/* Mobile M */
-/* @media (min-width: 375px) {
-    body{
-        background-color: #e8e8e8;
-        padding: 0;
-    }
-    .navbar{
-        margin: 0;
-        font-size: 12px;
-    }
-    header{
-        font-size: 18px;
-        width: 100%;
-    }
-    .buttonAddRencana{
-        width: 41%;
-        font-size: 12px;
-        margin: 0px 0px 100px 210px;
-    }
-    .button-search{
-        right: 40px;
-        top: 30px;
-    }
-    input{
-        font-size: 12px;
-        width: 155%;
-        padding: 9px 10px;
-    }
-    .icon{
-        font-size: 20px;
-    }
-} */
-
-/* Mobile L */
-/* @media (min-width: 425px) {
-    body{
-        background-color: #e8e8e8;
-        padding: 0 50px;
-    }
-    .navbar{
-        margin: 0 50px;
-        font-size: 12px;
-    }
-    header{
-        font-size: 18px;
-        width: 70%;
-    }
-    .buttonAddRencana{
-        width: 36%;
-        font-size: 12px;
-        margin: 0px 0px 100px 210px;
-    }
-    .button-search{
-        right: 12px;
-        top: 30px;
-    }
-    input{
-        font-size: 12px;
-        width: 125%;
-        padding: 9px 10px;
-    }
-    .icon{
-        font-size: 20px;
-    }
-} */
-
-/* Tablet */
-/* @media (min-width: 768px) {
-    body{
-        background-color: #e8e8e8;
-        padding: 0 222px;
-    }
-    .navbar{
-        margin: 0 222px;
-        font-size: 12px;
-    }
-    header{
-        font-size: 18px;
-        width: 35%;
-    }
-    .buttonAddRencana{
-        width: 20%;
-        font-size: 12px;
-        margin: 0px 0px 100px 380px;
-    }
-    .button-search{
-        right: -17px;
-        top: 30px;
-    }
-    input{
-        font-size: 12px;
-        width: 125%;
-        padding: 9px 10px;
-    }
-    .icon{
-        font-size: 20px;
-    }
-} */
-
-/* Laptop */
-/* @media (min-width: 1024px) { 
-    body{
-        background-color: #e8e8e8;
-        padding: 0 350px;
-    }
-    .navbar{
-        margin: 0 350px;
-        font-size: 12px;
-    }
-    header{
-        font-size: 18px;
-        width: 30%;
-    }
-    .buttonAddRencana{
-        width: 15%;
-        font-size: 12px;
-        margin: 0px 0px 100px 510px;
-    }
-    .button-search{
-        right: 22px;
-        top: 30px;
-    }
-    input{
-        font-size: 12px;
-        width: 125%;
-        padding: 9px 10px;
-    }
-    .icon{
-        font-size: 20px;
-    }
-} */
-
-/* Laptop L */
-/* @media (min-width: 1440px) { 
-    body{
-        background-color: #e8e8e8;
-        padding: 0 558px;
-    }
-    .navbar{
-        margin: 0 558px;
-        font-size: 12px;
-    }
-    header{
-        font-size: 18px;
-        width: 20%;
-    }
-    .buttonAddRencana{
-        width: 11%;
-        font-size: 12px;
-        margin: 0px 0px 100px 710px;
-    }
-    .button-search{
-        right: 2px;
-        top: 30px;
-    }
-    input{
-        font-size: 12px;
-        width: 125%;
-        padding: 9px 10px;
-    }
-    .icon{
-        font-size: 20px;
-    }
-} */

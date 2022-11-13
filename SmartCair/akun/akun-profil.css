@@ -6,7 +6,7 @@ body {
     background-color: white;
     height: 100vh;
     padding-top: 0.5em;
-    padding-left: 2em;
+    padding-left: 1em;
     width: 450px;
 }
 
@@ -22,7 +22,7 @@ body {
 }
 
 .fotoProfil {
-    width: 5em;
+    width: 6.5em;
     border: 2px solid #16697A;
     border-radius: 100%;
     margin: 4em 5em;
@@ -30,6 +30,7 @@ body {
 
 .userSetting {
     height: 18em;
+    font-weight: 700;
 }
 
 td{
@@ -58,7 +59,6 @@ nav a {
     .container {
         /* height: 100vh; */
         width: 99.9vw;
-
     }
 
     .button-back{
@@ -71,6 +71,7 @@ nav a {
 
     .userSetting {
         font-size: 0.8em;
+        font-weight: 700;
     }
 
     nav {
@@ -83,7 +84,6 @@ nav a {
     .container {
         /* height: 100vh; */
         width: 99.9vw;
-
     }
 
     .button-back{
@@ -96,84 +96,10 @@ nav a {
 
     .userSetting {
         font-size: 0.8em;
+        font-weight: 700;
     }
 
     nav {
         width: 99.9vw;
     }
 }
-
-/* @media (min-width: 320px) and (max-width: 370px){
-    .container {
-        height: 140vh;
-    }
-}
-@media (min-width: 371px) and (max-width: 425px){
-    .container {
-        height: 120vh;
-    }
-} */
-
-/* body{
-    background-color: #e8e8e8;
-    padding: 0 575px;
-}
-.container{
-    background-color: white;
-    height: 90vh;
-    padding-top: 2px;
-}
-.button-back{
-    border: 1px solid #e9e9e9;
-    border-radius: 10px;
-    padding: 10px 15px;
-    margin-top: 25px;
-    background-color: transparent;
-    color: #676868;
-    position: absolute;
-}
-.fotoProfil{
-    border: 2px solid #16697A;
-    border-radius: 100%;
-    width: 80px;
-    margin: 70px 0px 0px 130px;
-}
-.userSetting a{
-    text-decoration: none;
-    color: #676868;
-}
-.icon-userSetting{
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
-}
-.navbar{
-    background-color: white;
-    box-shadow: 0px -2px 20px #e9e9e9;
-    text-decoration: none;
-    color: #BABBBC;
-    margin: 0 575px;
-}
-nav a {
-    color: #BABBBC;
-    text-decoration: none;
-}
-table{
-    height: 280px;
-}
-td{
-    vertical-align: middle;
-}
-.userSetting .value{
-    color: #616161;
-} */
-
-/* @media (max-width: 991px){
-    body{
-        padding: 0 0;
-    }
-    .navbar{
-        margin: 0;
-    }
-}
- */

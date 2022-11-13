@@ -12,20 +12,9 @@ header {
     font-size: 1.2em;
     font-weight: 700;
     color: #16697A;
-    padding: 1em 0 0 0;
-    width: 27.5vw;
-}
-
-/* header {
-    font-weight: 700;
-    font-size: 1.1em;
-    color: #16697A;
-    padding: 2em 0 0 0;
     background-color: white;
-    width: 430px;
-    align-items: center;
-    align-content: center;
-} */
+    padding: 20px 0;
+}
 
 .button-back {
     font-size: 1em;
@@ -37,7 +26,7 @@ header {
 }
 
 .main {
-    padding: 4em 0.5em;
+    padding: 5em 0.5em;
 }
 
 table {
@@ -45,7 +34,7 @@ table {
     border-spacing: 0;
     width: 400px;
     border: 1px solid #ddd;
-    font-size: 0.7em;
+    font-size: 0.73em;
     margin: 0 auto;
 }
 
@@ -89,22 +78,7 @@ tr:nth-child(even) {
     background-color: transparent;
     border: 1px solid #16697A;
     border-radius: 15px;
-    /* box-shadow: 0 5px 5px #01465488; */
 }
-
-/* .button {
-    padding: 1em 1.5em;
-    margin-bottom: 2em;
-    font-size: 1rem;
-    cursor: pointer;
-    outline: none;
-    color: white;
-    background-color: #16697A;
-    border: none;
-    border-radius: 15px;
-    box-shadow: 0 5px 5px #01465488;
-    width: 25.5em;
-} */
 
 .button:hover {
     background-color: #074c5a;
@@ -117,18 +91,6 @@ tr:nth-child(even) {
     transform: translateY(2px);
 }
 
-/* @media (min-width: 320px) and (max-width: 370px) {
-    .container {
-        height: 140vh;
-    }
-}
-
-@media (min-width: 371px) and (max-width: 425px) {
-    .container {
-        height: 120vh;
-    }
-} */
-
 /* Mobile S */
 @media (min-width: 320px) and (max-width: 374px) {
     header {
@@ -138,7 +100,6 @@ tr:nth-child(even) {
     .container {
         /* height: 100vh; */
         width: 99.9vw;
-
     }
 
     .button {
@@ -158,21 +119,19 @@ tr:nth-child(even) {
         width: 99.9vw;
     }
 
-
     .container {
         /* height: 100vh; */
         width: 99.9vw;
-
     }
 
     .button {
         padding: 0.5em 0.5em;
-     width: 90vw;
-     }
+        width: 90vw;
+    }
 
-     table {
+    table {
         width: 100%;
-     }
+    }
 }
 
 @media (min-width: 374px) and (max-width: 768px) {
@@ -180,11 +139,9 @@ tr:nth-child(even) {
         width: 99.9vw;
     }
 
-
     .container {
         /* height: 100vh; */
         width: 99.9vw;
-
     }
 
     .button {
@@ -192,7 +149,7 @@ tr:nth-child(even) {
      width: 90vw;
      }
 
-     table {
+    table {
         width: 100%;
-     }
+    }
 }

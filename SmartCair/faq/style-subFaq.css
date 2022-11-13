@@ -13,6 +13,7 @@ header {
     color: #16697A;
     padding: 20px 0;
     background-color: white;
+    z-index: 1;
 }
 
 .button-back {
@@ -87,7 +88,6 @@ nav a {
     .container {
         /* height: 100vh; */
         width: 99.9vw;
-
     }
 
     header {
@@ -120,7 +120,6 @@ nav a {
     .container {
         /* height: 100vh; */
         width: 99.9vw;
-
     }
 
     header {
@@ -128,7 +127,7 @@ nav a {
     }
     
     .searchInput input {
-        width: 90vw;
+        width: 95vw;
     }
 
     .searchInput button {

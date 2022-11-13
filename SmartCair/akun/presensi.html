@@ -19,16 +19,17 @@
 <body>
     <div class="container">
         <header>
-            <div class="d-flex">
-                <button class="button-back" onclick="Redirect()">
+            <div class="header d-flex position-fixed">
+                <button class="button-back" id="back" onclick="Redirect()">
                     <ion-icon class="icon-back" name="chevron-back-outline"></ion-icon>
                 </button>
-                <p class="bold">Pre-Test</p>
+                <p class="bold"><b>Pre-Test</b></p>
             </div>
         </header>
         <main>
+            <b>Jawablah pertanyaan-pertanyaan berikut sebelum Anda melakukan presensi.</b>
             <ol>
-                <li>
+                <li style="margin-top: 1.5em;">
                     <b>Apabila terbukti tagihan tidak sesuai maka yang perlu dilakukan adalah....</b>
                     <div class="opsi d-flex">
                         <input type="checkbox" class="opsi" id="snk">
@@ -47,7 +48,7 @@
                         <p class="item-opsi m-2">Melakukan isolir</p>
                     </div>
                 </li>
-                <li>
+                <li style="margin-top: 1.5em;">
                     <b>Apabila pelanggan memiliki kendala terkait harga, hal yang harus dilakukan, kecuali....</b>
                     <div class="opsi d-flex">
                         <input type="checkbox" class="opsi" id="snk5">
@@ -67,7 +68,9 @@
                     </div>
                 </li>
             </ol>
-            <button type="submit" id="submit-test" class="submit">Submit</button>
+            <div class="submit align-items-center"  style="margin-top: 1em;">
+                <button type="submit" id="submit-test" class="submit"><b>Submit</b></button>
+            </div>
         </main>
     </div>
 
@@ -77,6 +80,11 @@
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script src="script-presensi.js"></script>
 
+    <script>
+        function Redirect() {
+          window.location = "akun.html"
+        }
+      </script>
 </body>
 
 </html>
