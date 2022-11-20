@@ -30,6 +30,11 @@ body {
     color: #626262;
 }
 
+.profilAkun a{
+    text-decoration: none;
+    color: black;
+}
+
 .icon-userSetting {
     font-size: 2em;
     margin-right: 0.5em;

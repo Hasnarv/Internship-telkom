@@ -2,7 +2,7 @@
 
 function sukses() {
     Swal.fire({
-        html: "Terima Kasih. Silahkan melakukan presensi ",
+        html: `<b>` + "Selamat!" + `</b>` + " Jawaban Anda tepat!" + `<br>` + "Silahkan saatnya melakukan presensi",
         iconHtml: '<ion-icon name="log-in-outline"></ion-icon>',
         iconColor: '#4e9a06',
         confirmButtonText: "Check-In",
@@ -12,7 +12,7 @@ function sukses() {
         // jika mengklik tombol presensi
         if (result.isConfirmed) {
             Swal.fire({
-                title: 'Check-In Berhasil',
+                html: "Check-In Berhasil, Terima Kasih.",
                 icon: 'success',
                 confirmButtonColor: '#4e9a06',
                 allowOutsideClick: false
@@ -29,7 +29,7 @@ function sukses() {
 
 function blmTepat() {
     Swal.fire({
-        text: "Jawaban anda belum tepat, silahkan coba isi kembali",
+        html: `<b>` + "Jawaban Anda belum tepat." + `</b><br>` + "Silahkan jawab kembali dengan lebih teliti!",
         icon: 'warning',
         confirmButtonText: 'OK'
     })
@@ -48,7 +48,7 @@ document.getElementById('submit-test').addEventListener('click', () => {
 
     if (coba >= 3) {
         Swal.fire({
-            text: "Jawaban 1 = a, 2 = d",
+            html: `<b>` + "MAAF!" + `</b>` + " Jawaban Anda masih salah." + `<br>` + "Jawaban yang tepat adalah" + `<br>` + "1 = A" + `<br>` + "2 = D" + `<br>` + "Silahkan diperbaiki!",
             icon: 'warning',
             confirmButtonText: 'OK'
         });

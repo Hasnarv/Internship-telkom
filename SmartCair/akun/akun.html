@@ -21,11 +21,15 @@
             <table class="userProfile table table-borderless mt-5">
                 <tr>
                     <td rowspan="2">
-                        <img class="fotoProfil" src="../img/fotoprofil.png" alt="">
+                        <a href="akun-profil.html">
+                            <img class="fotoProfil" src="../img/fotoprofil.png" alt="">
+                        </a>
                     </td>
                     <td class="profilAkun align-middle">
-                        <div class="namaUser bold"><b>Ahmad Bin Abdullah</b></div>
-                        <div class="email">ahmad123@gmail.com</div>
+                        <a href="akun-profil.html">
+                            <div class="namaUser bold"><b>Ahmad Bin Abdullah</b></div>
+                            <div class="email">ahmad123@gmail.com</div>
+                        </a>
                     </td>
                 </tr>
             </table>
@@ -41,9 +45,9 @@
                         <ion-icon name="chevron-forward-outline"></ion-icon>
                     </td>
                 </tr>
-                <tr>
+                <tr id="presensi">
                     <td class="d-flex">
-                        <a href="#" id="presensi" class="d-flex">
+                        <a href="#" class="d-flex">
                             <ion-icon class="icon-userSetting" name="scan-circle"></ion-icon>
                             <p>Presensi</p>
                         </a>
@@ -52,9 +56,9 @@
                         <ion-icon name="chevron-forward-outline"></ion-icon>
                     </td>
                 </tr>
-                <tr>
+                <tr id="bahasa">
                     <td class="d-flex">
-                        <a href="#" id="bahasa" class="d-flex">
+                        <a href="#" class="d-flex">
                             <ion-icon class="icon-userSetting bahasa" name="language-outline"></ion-icon>
                             <p>Bahasa</p>
                         </a>
@@ -74,8 +78,8 @@
                         <ion-icon name="chevron-forward-outline"></ion-icon>
                     </td>
                 </tr>
-                <tr>
-                    <td colspan="2" class="d-flex" id="keluar" style="color: #EF233C;">
+                <tr id="keluar">
+                    <td colspan="2" class="d-flex" style="color: #EF233C;">
                         <ion-icon class="icon-userSetting" name="log-out-outline"></ion-icon>
                         <p>Keluar</p>
                     </td>
@@ -101,7 +105,6 @@
                 </a>
             </nav>
         </div>
-
     </div>
 
     <!-- JS Files -->
@@ -115,7 +118,7 @@
             const localData = localStorage.getItem("presensi")
             if (localData !== null) {
                 Swal.fire({
-                    html: "Silahkan melakukan Check-out",
+                    html: "Silahkan melakukan" + `<b>` + " Check-Out" + `</b>`,
                     iconHtml: '<ion-icon name="log-out-outline"></ion-icon>',
                     iconColor: '#D90429',
                     confirmButtonText: "Check-Out",
@@ -198,7 +201,7 @@
                 }, 500)
             })
 
-            const { value: language } = await Swal.fire({
+            const { value: mode } = await Swal.fire({
                 title: 'Mode',
                 input: 'radio',
                 confirmButtonText: "Terapkan",
@@ -210,10 +213,10 @@
                 }
             })
 
-            if (language !== '') {
+            if (mode === 'Pra-NPC' || mode === 'C3MR') {
                 Swal.fire({
                     icon: 'success',
-                    html: `Anda memilih ${language}`,
+                    html: `Anda memilih ${mode}`,
                     showConfirmButton: false
                 })
             }
