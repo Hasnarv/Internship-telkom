@@ -1,8 +1,7 @@
-
-
 function sukses() {
     Swal.fire({
-        html: `<b>` + "Selamat!" + `</b>` + " Jawaban Anda tepat!" + `<br>` + "Silahkan saatnya melakukan presensi",
+        html: `<b>` + "Selamat!" + `</b>` + " Jawaban Anda tepat!" + `<br>` 
+        + "Silahkan saatnya melakukan presensi",
         iconHtml: '<ion-icon name="log-in-outline"></ion-icon>',
         iconColor: '#4e9a06',
         confirmButtonText: "Check-In",
@@ -29,7 +28,8 @@ function sukses() {
 
 function blmTepat() {
     Swal.fire({
-        html: `<b>` + "Jawaban Anda belum tepat." + `</b><br>` + "Silahkan jawab kembali dengan lebih teliti!",
+        html: `<b>` + "Jawaban Anda belum tepat." + `</b><br>` 
+        + "Silahkan jawab kembali dengan lebih teliti!",
         icon: 'warning',
         confirmButtonText: 'OK'
     })
@@ -42,17 +42,20 @@ document.getElementById('submit-test').addEventListener('click', () => {
 
     if (check.checked == true && check8.checked == true) {
         return sukses();
-    } else {
+    } 
+    
+    else {
         blmTepat();
     }
 
     if (coba >= 3) {
         Swal.fire({
-            html: `<b>` + "MAAF!" + `</b>` + " Jawaban Anda masih salah." + `<br>` + "Jawaban yang tepat adalah" + `<br>` + "1 = A" + `<br>` + "2 = D" + `<br>` + "Silahkan diperbaiki!",
+            html: `<b>` + "MAAF!" + `</b>` + " Jawaban Anda masih salah." + `<br>` 
+            + "Jawaban yang tepat adalah" + `<br>` + "1 = A" + `<br>` + "2 = D" 
+            + `<br>` + "Silahkan diperbaiki!",
             icon: 'warning',
             confirmButtonText: 'OK'
         });
     }
-    
     coba++
 })
